@@ -1,0 +1,121 @@
+.projects_container {
+    background-color: #222828;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4% 7%;
+}
+
+.projects_leftside {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', monospace;
+    width: 45%;
+    row-gap: 10px;
+}
+
+.projects_rightside {
+    display: flex;
+    row-gap: 30px;
+    
+    flex-direction: column;
+    width: 45%;
+    font-family: 'Roboto', monospace;
+}
+
+.intro_heading_section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.intro_sub_heading {
+    color: #dededf;
+    opacity: 0.6;
+    letter-spacing: normal;
+}
+
+.intro_heading_text {
+    font-size: 32px;
+    color: #dfdfde;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.intro_description {
+    color: #dededf;
+    font-size: 18px;
+}
+
+.intro_story {
+    width: 600px;
+    color: #dededf;
+    opacity: 0.6;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: normal;
+}
+
+.feature_card {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 10px;
+    border-radius: 6px;
+    background-color: #2C3333;
+    padding: 4%;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+
+.feature_card:hover {
+    background-color: #3a4444;
+}
+
+.feature_card:hover .heading_text {
+    color: #03c988;
+}
+
+.feature_card:hover .project_count{
+    text-decoration: underline;
+}
+
+.card_text_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card_logo_section {
+    color: #03c988;
+    font-weight: 400;
+}
+
+.heading_description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.heading_text {
+    /* color: #03c988; */
+    color: #dfdfde;
+    opacity: 0.9;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.heading_small_text {
+    color: #dededf;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.project_count {
+    color: #dededf;
+    opacity: 0.9;
+    font-size: 12px;
+
+}

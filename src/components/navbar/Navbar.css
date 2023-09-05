@@ -1,0 +1,87 @@
+.nav_bar_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 7%;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #2C3333;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logo_section {
+    font-family: 'Poppins', sans-serif;
+    color: #d4d4d4;
+    letter-spacing: normal;
+    font-weight: 300;
+}
+.span_class {
+    margin-left: -2px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.7;
+    letter-spacing: normal;
+    font-weight: 300;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.nav_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 300px;
+    color: #DFDFDE;
+    font-size: 12px;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+
+.nav_link_btn {
+    text-decoration: none; 
+    color: #dfdfde;
+
+}
+.nav_link_btn:hover {
+    color: #03c988 !important;
+}
+
+.nav_list_item{
+    list-style-type: none;
+    display: flex;
+    height: 30px;
+    width: 90px;
+    column-gap: 5px;
+    border: 1px solid #2C3333;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in 0.2s;
+}
+
+.nav_list_item:hover {
+    /* background-color: #03C988; */
+    color: #03c988;
+
+}
+
+.nav_icon {
+    width: 20px;
+    height: 20px;
+}
+
+#email_icon {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}

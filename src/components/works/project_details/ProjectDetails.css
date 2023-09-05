@@ -1,0 +1,159 @@
+.project_details_container {
+    background-color: #222828;
+    height: auto;
+    
+}
+.main_section {
+    padding: 4% 8%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.game_title {
+    font-family: 'Roboto', monospace;
+    color: #dfdfdf;
+    opacity: 0.9;
+}
+.genre_features_section {
+    font-family: 'Roboto', monospace;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.genre_section {
+    display: flex;
+    flex-direction: column;
+    color: #dfdfdf;
+    opacity: 0.8;
+    row-gap: 5px;
+    cursor: pointer;
+    border-left: 1px solid #434343;
+    padding: 1% 5%;
+}
+.features_section {
+    display: flex;
+    flex-direction: column;
+    color: #dfdfdf;
+    opacity: 0.8;
+    row-gap: 5px;
+    cursor: pointer;
+    border-left: 1px solid #434343;
+    padding: 1% 5%;
+}
+.tit {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    opacity: 0.6;
+}
+.game_description {
+    width: 800px;
+    font-family: 'Roboto', monospace;
+    font-size: 16px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #dfdfdf;
+    opacity: 0.8;
+    font-weight: 400;
+}
+.development_details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-family: 'Roboto', monospace;
+}
+.setps_section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+.inital_setps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.final_setps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.steps_text {
+    width: 600px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #dfdfdf;
+    opacity: 0.6;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.steps_text li {
+    list-style: none;
+}
+.intial_setps_image_section {
+    height: 340px;
+}
+.final_setps_image_section{
+    height: 340px;
+}
+.setps_image {
+    width: 600px;
+    height: auto;
+}
+
+.sec_title {
+    color: #03c988;
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.game_instructions_section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.game_instructions_title {
+    font-family: 'Roboto', monospace;
+    font-size: 24px;
+    color: #03c988;
+    opacity: 0.8;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.game_instructions_text {
+    display: flex;
+    flex-direction: column;
+    color: #dfdfdf;
+    font-family: 'Roboto', monospace;
+    opacity: 0.8;
+    row-gap: 20px;
+}
+
+.game_instructions_text li {
+    opacity: 0.8;
+    list-style: none;
+}
+.footer {
+    height: 100px;
+    background-color: #191d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_icons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.footer_icon {
+    height: 22px;
+    width: 22px;
+    
+}

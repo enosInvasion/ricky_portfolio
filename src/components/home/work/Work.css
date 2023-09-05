@@ -1,0 +1,46 @@
+.work_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2C3333;
+    padding: 3% 7%;
+    row-gap: 20px;
+}
+
+.work_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.text_section {
+    font-family: 'Roboto', monospace;
+   width: 700px;
+   display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #222828;
+    height: 210px;
+    padding: 3%; 
+    border-radius: 6px;
+}
+
+.work_image {
+    height: 289px;
+    width: 500px;
+}
+
+.card_heading {
+    color: #dfdfde;
+    opacity: 0.9;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card_description {
+    color: #dfdfde;
+    opacity: 0.6;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: normal;
+}
