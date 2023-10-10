@@ -70,7 +70,7 @@
 
 .w_card_section_title_text {
     font-family: "Roboto", monospace;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: #dfdfdf;
     margin-bottom: 20px;
@@ -129,11 +129,13 @@
 }
 .w_card_project_heading {
     color: #dfdfdf;
-    opacity: 0.9;
+    opacity: 0.8;
+    font-size: 16px;
+    letter-spacing: normal;
 }
 .w_card_project_description {
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
     width: 400px;
     color: #dfdfdf;
     opacity: 0.7;

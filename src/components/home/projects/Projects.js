@@ -3,12 +3,15 @@ import "../projects/Projects.css";
 import ViewInArOutlinedIcon from "@mui/icons-material/ViewInArOutlined";
 import VideogameAssetOutlinedIcon from "@mui/icons-material/VideogameAssetOutlined";
 import DesignServicesOutlinedIcon from "@mui/icons-material/DesignServicesOutlined";
+import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="projects_container">
       <div className="projects_leftside">
-        <div className="feature_card">
+        <div className="feature_card" onClick={() => navigate("/works/design")}>
           <div className="card_text_section">
             <div className="heading_description">
               <h3 className="heading_text">Design Projects</h3>
@@ -24,7 +27,12 @@ const Projects = () => {
             <DesignServicesOutlinedIcon />
           </div>
         </div>
-        <div className="feature_card">
+        <div
+          className="feature_card"
+          onClick={() => {
+            navigate("/works/vrprojects");
+          }}
+        >
           <div className="card_text_section">
             <div className="heading_description">
               <h3 className="heading_text">VR Projects</h3>
@@ -40,7 +48,10 @@ const Projects = () => {
             <ViewInArOutlinedIcon />
           </div>
         </div>
-        <div className="feature_card">
+        <div
+          className="feature_card"
+          onClick={() => navigate("works/development")}
+        >
           <div className="card_text_section">
             <div className="heading_description">
               <h3 className="heading_text">Game Dev Projects</h3>

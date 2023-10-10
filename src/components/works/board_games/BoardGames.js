@@ -1,70 +1,14 @@
 import React from "react";
 import "./BoardGames.css";
-import DevelopmentProjectsImage from "../../../images/development.jpg";
-import BoardGamesImage from "../../../images/board_games.jpg";
-import VRProjectsImage from "../../../images/vr_projects.jpg";
-import DesignProjectsImage from "../../../images/design_projects.jpg";
+import { useState } from "react";
 import Navbar from "../../navbar/Navbar";
+import { board_games_card_object_list } from "../../../componet_objects/CardObjects";
+import { useNavigate } from "react-router-dom";
 
 const BoardGames = () => {
-  let design_card_object_list = [
-    {
-      image_src: VRProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DesignProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DesignProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: BoardGamesImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: BoardGamesImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DevelopmentProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DevelopmentProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-  ];
+  const [id, setId] = useState("");
+  const navigate = useNavigate();
+
   return (
     <div className="board_games_section_container">
       <Navbar />
@@ -82,9 +26,20 @@ const BoardGames = () => {
           <h3 className="w_card_section_title_text">All Board Game Projects</h3>
           <div className="card_container_section">
             <div className="design_card_container">
-              {design_card_object_list.map((object) => {
+              {board_games_card_object_list.map((object) => {
+                console.log(object.id);
                 return (
-                  <div className="works_card">
+                  <div
+                    className="works_card"
+                    key={object.id}
+                    onClick={() => {
+                      console.log("cliked card : " + object.id);
+                      setId(object.id);
+                      navigate(`/works/boardgames/${object.id}`, {
+                        state: { object: object },
+                      });
+                    }}
+                  >
                     <div className="w_card_image_section">
                       <img src={object.image_src} alt="image" />
                     </div>

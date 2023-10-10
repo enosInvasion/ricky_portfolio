@@ -13,14 +13,12 @@ import insta from "../../../images/instagram.svg";
 const ProjectDetails = (details) => {
   const location = useLocation();
 
-  console.log(
-    "inside project details" + location.state.object.carousal_imageList
-  );
-
   var imgList = [];
   location.state.object.carousal_imageList.map((img) => {
     imgList.push(img);
   });
+  console.log(location.state.object.game_description);
+  console.log(location.state.object.title);
 
   return (
     <div className="project_details_container">
@@ -29,10 +27,11 @@ const ProjectDetails = (details) => {
         <h1 className="game_title">{location.state.object.title}</h1>
         <Caraousal props={imgList} />
         <div className="game_description">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero libero
+          {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero libero
           ipsum quisquam vitae fuga aliquid, perferendis soluta optio id. Autem
           eaque corrupti eius! Temporibus perferendis architecto optio vero!
-          Minima, illum.
+          Minima, illum. */}
+          {location.state.object.game_description}
         </div>
         <div className="genre_features_section">
           <div className="genre_section">

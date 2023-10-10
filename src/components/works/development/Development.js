@@ -1,9 +1,5 @@
 import React from "react";
 import "./Development.css";
-import DevelopmentProjectsImage from "../../../images/development.jpg";
-import BoardGamesImage from "../../../images/board_games.jpg";
-import VRProjectsImage from "../../../images/vr_projects.jpg";
-import DesignProjectsImage from "../../../images/design_projects.jpg";
 import Navbar from "../../navbar/Navbar";
 import { development_card_object_list } from "../../../componet_objects/CardObjects";
 import { useState } from "react";

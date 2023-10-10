@@ -5,66 +5,9 @@ import BoardGamesImage from "../../../images/board_games.jpg";
 import VRProjects from "../../../images/vr_projects.jpg";
 import DesignProjectsImage from "../../../images/design_projects.jpg";
 import Navbar from "../../navbar/Navbar";
+import { design_card_object_list } from "../../../componet_objects/CardObjects";
 
 const Design = () => {
-  let design_card_object_list = [
-    {
-      image_src: VRProjects,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DesignProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DesignProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: BoardGamesImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: BoardGamesImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DevelopmentProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DevelopmentProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-  ];
   return (
     <div className="design_section_container">
       <Navbar />

@@ -1,0 +1,149 @@
+.bg_one_details_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #222828;
+
+}
+
+.story_telling_container {
+    font-family: 'Roboto', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.story_telling_heading {
+    margin-bottom: 20px;
+    color: #dfdfdf;
+    opacity: 0.7;
+}
+.sotry_telling_content {
+    color: #dfdfdf;
+    opacity: 0.6;
+}
+.feeling_container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Robot', monospace;
+}
+
+.feeling_heading {
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #dfdfdf;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+.feeling_content {
+    font-weight: 400;
+    color: #dfdfdf;
+    letter-spacing: normal;
+    opacity: 0.6;
+}
+.asthetics_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.asthetics_text_section {
+    font-family: 'Roboto', monospace;
+    width: 400px;
+}
+
+.asthetics_heading {
+    color: #dfdfdf;
+    opacity: 0.7;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+}
+
+.asthetics_list {
+    color: #dfdfdf;
+    padding: 3% 7%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+    opacity: 0.6;
+}
+
+.how_to_play_container {
+    font-family: 'Roboto', monospace;
+}
+
+.how_to_play_heading {
+    color: #dfdfdf;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.beginning_container{
+    color: #dfdfdf;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+
+.goal_of_the_game_container {
+    font-family: 'Roboto', monospace;
+}
+.goal_of_the_game_container_heading {
+    color: #dfdfdf;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.goal_of_the_game_content {
+    color: #dfdfdf;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+.turn_structure_container h3{
+    color: #dfdfdf;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+.turn_structure_container p {
+    color: #dfdfdf;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+.turn_structure_container h4 {
+    color: #dfdfdf;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.turn_structure_list {
+    padding: 2%;
+    color: #dfdfdf;
+    opacity: 0.6;
+}
+
+.what_happens_container {
+    color: #dfdfdf;
+    margin-bottom: 40px;
+}
+
+.what_happens_container h3 {
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.what_happens_container p {
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.star_moves_onto_container {
+    color: #dfdfdf;
+}
+
+.star_moves_onto_container h3 {
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.star_moves_onto_container p {
+    opacity: 0.6;
+}

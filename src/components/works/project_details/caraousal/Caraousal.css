@@ -1,0 +1,51 @@
+.caraousal_container {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+
+.caraousal_inner {
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+}
+
+.caraousal_inner .move_left_button{
+    flex: 10%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer; 
+    opacity: 0.1;
+}
+
+.caraousal_inner .carousal_center{
+    flex: 80%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+.caraousal_inner .move_left_button:hover {
+    opacity: 0.6;
+}
+
+.caraousal_inner .move_right_button{
+    flex: 10%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+    opacity: 0.1;
+}
+
+.caraousal_inner .move_right_button:hover {
+    opacity: 0.6;
+}
