@@ -304,7 +304,7 @@ const development_card_object_list = [
   },
   {
     id: "dev_2",
-    title: "main card",
+    title: "Tiretio - A First Person Shooter",
     image_src: DesignProjectsImage,
     project_title: "Lorem ipsum",
     created_at: "04/03/2022",
@@ -364,6 +364,53 @@ const development_card_object_list = [
     project_title: "Lorem ipsum",
     created_at: "04/03/2022",
     project_type: "Design",
+    project_description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+  },
+];
+
+const prototype_card_object_list = [
+  {
+    id: "prot_1",
+    title: "LEVEL G41 - A LIVE ACTION ROLE PLAY",
+    image_src: DevelopmentProjectsImage,
+    project_title: "Lorem ipsum",
+    created_at: "04/03/2022",
+    project_type: "Prototype",
+    project_description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+  },
+  {
+    id: "prot_2",
+    title: "MUR’S JOURNEY",
+    image_src: DevelopmentProjectsImage,
+    project_title: "Lorem ipsum",
+    created_at: "04/03/2022",
+    project_type: "Prototype",
+    project_description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+  },
+  {
+    id: "prot_3",
+    title: "THE CHRONICLES OF AMUSOR",
+    image_src: DevelopmentProjectsImage,
+    project_title: "Lorem ipsum",
+    created_at: "04/03/2022",
+    project_type: "Prototype",
+    project_description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+  },
+  {
+    id: "prot_4",
+    title: "FREDRICK THE FIREFIGHTER",
+    image_src: DevelopmentProjectsImage,
+    project_title: "Lorem ipsum",
+    created_at: "04/03/2022",
+    project_type: "Prototype",
     project_description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
@@ -547,6 +594,7 @@ const vr_card_object_list = [
 export {
   design_card_object_list,
   development_card_object_list,
+  prototype_card_object_list,
   board_games_card_object_list,
   vr_card_object_list,
 };

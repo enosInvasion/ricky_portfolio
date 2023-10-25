@@ -1,0 +1,27 @@
+.bg_six_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #222828;
+    color: #dfdfdf;
+    font-family: 'Roboto', monospace;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+h3 {
+    opacity: 0.7;
+    /* margin-bottom: 20px; */
+}
+
+p {
+    opacity: 0.6;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.bg_six_imp_point {
+    margin-bottom: 20px;
+}
+.bg_six_note_section {
+    margin-bottom: 20px;
+}

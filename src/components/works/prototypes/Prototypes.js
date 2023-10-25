@@ -1,38 +1,38 @@
 import React from "react";
-import "./Development.css";
+import "./Prototypes.css";
 import Navbar from "../../navbar/Navbar";
-import { development_card_object_list } from "../../../componet_objects/CardObjects";
+import { prototype_card_object_list } from "../../../componet_objects/CardObjects";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-const Development = () => {
+const Prototypes = () => {
   const [id, setId] = useState("");
   const navigate = useNavigate();
 
   return (
-    <div className="development_section_container">
+    <div className="prototype_section_container">
       <Navbar />
-      <div className="development_container">
-        <div className="dev_heading_section">
-          <h2 className="dev_section_heading_text">Development Projects</h2>
-          <p className="dev_section_description_text">
+      <div className="prototype_container">
+        <div className="prot_heading_section">
+          <h2 className="prot_section_heading_text">Prototypes</h2>
+          <p className="prot_section_description_text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             <br /> Eius, inventore adipisicing elit.
           </p>
         </div>
         <div className="works_card_section">
           <h3 className="w_card_section_title_text">
-            All the available development projects
+            All the available prototypes
           </h3>
           <div className="card_container_section">
             <div className="design_card_container">
-              {development_card_object_list.map((object, index) => {
+              {prototype_card_object_list.map((object, index) => {
                 return (
                   <div
                     className="works_card"
-                    key={object.id}
+                    key={object}
                     onClick={() => {
                       setId(object.id);
-                      navigate(`/works/developmentdetails/${object.id}`, {
+                      navigate(`/works/prototypes/${object.id}`, {
                         state: { object: object },
                       });
                     }}
@@ -69,4 +69,4 @@ const Development = () => {
   );
 };
 
-export default Development;
+export default Prototypes;

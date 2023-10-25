@@ -10,6 +10,8 @@
 }
 
 .works_nav_button {
+    width: 240px;
+    height: 200px;
     background-color: #3a4444;
     outline: none;
     border-radius: 6px;
@@ -21,6 +23,7 @@
     align-items: center;
     transition: all ease-in 0.3s;
     cursor: pointer;
+    justify-content: space-between;
 }
 
 .works_nav_button:hover {
@@ -39,23 +42,27 @@
 
 .works_button_title {
     font-family: 'Roboto', monospace;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: #dfdfdf;
     letter-spacing: normal;
 }
 
 .works_image_container {
-    height: 150px;
-    width: 250px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 190px;
     transition: all ease-in 0.3s;
     box-sizing: border-box;
     border-radius: 6px;
 }
 
 .works_image {
-    width: 250px;
-    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 190px;
+    height: auto;
     border-radius: 6px;
 }
 
@@ -65,6 +72,8 @@
     flex-wrap: wrap;
     row-gap: 30px;
     column-gap: 53px;
+    align-items: center;
+    justify-content: space-between;
 
 }
 

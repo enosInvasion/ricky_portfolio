@@ -93,7 +93,18 @@ const Main = () => {
           <div className="works_image_container">
             <img className="works_image" src={NavImage} alt="" />
           </div>
-          <h3 className="works_button_title">Development Projects</h3>
+          <h3 className="works_button_title">Prototypes</h3>
+        </button>
+        <button
+          className="works_nav_button"
+          onClick={() => {
+            navigate("/works/development");
+          }}
+        >
+          <div className="works_image_container">
+            <img className="works_image" src={NavImage} alt="" />
+          </div>
+          <h3 className="works_button_title">Development</h3>
         </button>
 
         <button
@@ -117,7 +128,7 @@ const Main = () => {
           <div className="works_image_container">
             <img className="works_image" src={NavImage} alt="" />
           </div>
-          <h3 className="works_button_title">Board Game Projects</h3>
+          <h3 className="works_button_title">Board Games</h3>
         </button>
       </div>
       <div className="works_card_section">

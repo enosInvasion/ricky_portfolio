@@ -9,7 +9,7 @@ const Caraousal = ({ props }) => {
   props.map((img) => {
     imageList.push(img);
   });
-  const [currImageIndex, setCurrImageIndex] = useState(2);
+  const [currImageIndex, setCurrImageIndex] = useState(0);
   console.log("inside carousal" + props);
   console.log(props.type);
   //console.log("image list : " + imageList);
