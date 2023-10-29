@@ -35,6 +35,7 @@ const Development = () => {
                       navigate(`/works/developmentdetails/${object.id}`, {
                         state: { object: object },
                       });
+                      // console.log(" from development : " + object.id);
                     }}
                   >
                     <div className="w_card_image_section">

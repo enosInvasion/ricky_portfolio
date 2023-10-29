@@ -200,6 +200,69 @@ const DevOne = () => {
             problem-solving abilities in the realm of game development.
           </p>
         </div>
+        <div className="dev_one_c_five">
+          <h3>Further Development : </h3>
+          <p>
+            While the current state of the game represents a significant
+            achievement, there are exciting possibilities for future development
+            and enhancements to take the gameplay experience to the next level.
+            Some key areas of further development include:
+          </p>
+          <h4>Leaderboard Integration : </h4>
+          <p>
+            Implementing a leaderboard system would add a competitive element to
+            the game, allowing players to compare their scores with others and
+            aim for the top spot. This feature can enhance player engagement and
+            replayability.
+          </p>
+          <h4>Enemy AI : </h4>
+          <p>
+            To increase the game's challenge and variety, introducing enemy
+            characters with AI behaviors would be an exciting next step. These
+            enemies could present dynamic obstacles for the player, requiring
+            strategic gameplay and adding depth to the experience.
+          </p>
+          <h4>Weapon Upgrades : </h4>
+          <p>
+            Allowing players to use the points they've collected to upgrade
+            their weapons or unlock new ones can create a sense of progression
+            and customization. This feature would encourage players to
+            accumulate more points and experiment with different playstyles.
+          </p>
+          <h4>Additional Levels : </h4>
+          <p>
+            Expanding the game with new, diverse levels will keep players
+            engaged and excited. Each level could introduce unique challenges,
+            environments, and gameplay elements, ensuring that players have a
+            fresh experience as they progress through the game.
+          </p>
+          <h4>Storyline Integration : </h4>
+          <p>
+            Adding a narrative or storyline to the game can provide context and
+            purpose to the player's journey through the maze-like city. This can
+            make the gameplay experience even more immersive and emotionally
+            engaging.
+          </p>
+          <h4>Power-Ups and Abilities : </h4>
+          <p>
+            Introducing power-ups or special abilities that players can acquire
+            would further diversify gameplay. These abilities could aid in
+            overcoming challenges and add an element of strategy to the game.
+          </p>
+          <h4>Visual and Audio Enhancements : </h4>
+          <p>
+            Improving the game's visuals and audio, such as adding realistic
+            textures, atmospheric sound effects, and dynamic lighting, can
+            significantly enhance the overall gaming experience.
+          </p>
+          <p>
+            These future development ideas not only expand the game's content
+            and features but also offer opportunities to attract a wider player
+            base and make the game even more compelling. With continued
+            development, the game can evolve into an even more engaging and
+            polished experience.
+          </p>
+        </div>
       </div>
     </div>
   );

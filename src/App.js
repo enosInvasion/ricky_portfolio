@@ -22,6 +22,7 @@ import ProtFour from "./components/works/prototypes/prot_four/ProtFour";
 import Prototypes from "./components/works/prototypes/Prototypes";
 import Development from "./components/works/development/Development";
 import DevOne from "./components/works/development/dev_one/DevOne";
+import DevTwo from "./components/works/development/dev_two/DevTwo";
 
 function App() {
   return (
@@ -48,11 +49,11 @@ function App() {
         <Route path="/works/prototypes/prot_2" element={<ProtTwo />} />
         <Route path="/works/prototypes/prot_3" element={<ProtThree />} />
         <Route path="/works/prototypes/prot_4" element={<ProtFour />} />
+
         {/* Development projects path */}
         <Route path="/works/developmentdetails/dev_1" element={<DevOne />} />
-        {/* <Route path="/works/developmentdetails/dev_1" element={<DevOne />} />
-        <Route path="/works/developmentdetails/dev_1" element={<DevOne />} />
-        <Route path="/works/developmentdetails/dev_1" element={<DevOne />} /> */}
+        <Route path="/works/developmentdetails/dev_1" element={<DevTwo />} />
+        {/* <Route path="/works/developmentdetails/dev_1" element={<DevThree />} /> */}
       </Routes>
     </Router>
   );

@@ -87,7 +87,7 @@ const Main = () => {
         <button
           className="works_nav_button"
           onClick={() => {
-            navigate("/works/development");
+            navigate("/works/prototypes");
           }}
         >
           <div className="works_image_container">

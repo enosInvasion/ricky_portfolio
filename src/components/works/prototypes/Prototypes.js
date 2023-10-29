@@ -29,12 +29,13 @@ const Prototypes = () => {
                 return (
                   <div
                     className="works_card"
-                    key={object}
+                    key={object.id}
                     onClick={() => {
                       setId(object.id);
                       navigate(`/works/prototypes/${object.id}`, {
                         state: { object: object },
                       });
+                      console.log(object.id);
                     }}
                   >
                     <div className="w_card_image_section">
