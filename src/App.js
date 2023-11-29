@@ -23,6 +23,8 @@ import Prototypes from "./components/works/prototypes/Prototypes";
 import Development from "./components/works/development/Development";
 import DevOne from "./components/works/development/dev_one/DevOne";
 import DevTwo from "./components/works/development/dev_two/DevTwo";
+import DevThree from "./components/works/development/dev_three/DevThree";
+import VrOne from "./components/works/vr/vr_one/VrOne";
 
 function App() {
   return (
@@ -52,8 +54,10 @@ function App() {
 
         {/* Development projects path */}
         <Route path="/works/developmentdetails/dev_1" element={<DevOne />} />
-        <Route path="/works/developmentdetails/dev_1" element={<DevTwo />} />
-        {/* <Route path="/works/developmentdetails/dev_1" element={<DevThree />} /> */}
+        <Route path="/works/developmentdetails/dev_2" element={<DevTwo />} />
+        <Route path="/works/developmentdetails/dev_3" element={<DevThree />} />
+        {/* VR projects path */}
+        <Route path="/works/vrprojects/vr_1" element={<VrOne />} />
       </Routes>
     </Router>
   );

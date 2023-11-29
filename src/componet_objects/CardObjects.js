@@ -293,7 +293,7 @@ let design_card_object_list = [
 const development_card_object_list = [
   {
     id: "dev_1",
-    title: "main card",
+    title: "Tiretio - A First Person Shooter",
     image_src: VRProjectsImage,
     project_title: "Lorem ipsum",
     created_at: "04/03/2022",
@@ -304,7 +304,7 @@ const development_card_object_list = [
   },
   {
     id: "dev_2",
-    title: "Tiretio - A First Person Shooter",
+    title: "Pacman - An Arcade Classic",
     image_src: DesignProjectsImage,
     project_title: "Lorem ipsum",
     created_at: "04/03/2022",
@@ -315,7 +315,7 @@ const development_card_object_list = [
   },
   {
     id: "dev_3",
-    title: "main card",
+    title: "AMAZE - A Third Person Adventure",
     image_src: DesignProjectsImage,
     project_title: "Lorem ipsum",
     created_at: "04/03/2022",

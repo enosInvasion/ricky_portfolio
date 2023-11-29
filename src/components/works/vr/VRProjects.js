@@ -1,70 +1,14 @@
 import React from "react";
 import "./VRProjects.css";
-import DevelopmentProjectsImage from "../../../images/development.jpg";
-import BoardGamesImage from "../../../images/board_games.jpg";
-import VRProjectsImage from "../../../images/vr_projects.jpg";
-import DesignProjectsImage from "../../../images/design_projects.jpg";
 import Navbar from "../../navbar/Navbar";
+import { vr_card_object_list } from "../../../componet_objects/CardObjects";
+import { useLocation } from "react-router-dom";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const VRProjects = () => {
-  let design_card_object_list = [
-    {
-      image_src: VRProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DesignProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DesignProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: BoardGamesImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: BoardGamesImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DevelopmentProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-    {
-      image_src: DevelopmentProjectsImage,
-      project_title: "Lorem ipsum",
-      created_at: "04/03/2022",
-      project_type: "Design",
-      project_description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    },
-  ];
+  const [id, setId] = useState("");
+  const navigate = useNavigate();
   return (
     <div className="vr_section_container">
       <Navbar />
@@ -80,9 +24,19 @@ const VRProjects = () => {
           <h3 className="w_card_section_title_text">All VR Projects</h3>
           <div className="card_container_section">
             <div className="design_card_container">
-              {design_card_object_list.map((object) => {
+              {vr_card_object_list.map((object) => {
                 return (
-                  <div className="works_card">
+                  <div
+                    className="works_card"
+                    key={object.id}
+                    onClick={() => {
+                      setId(object.id);
+                      navigate(`/works/vrprojects/${object.id}`, {
+                        state: { object: object },
+                      });
+                      console.log(object.id);
+                    }}
+                  >
                     <div className="w_card_image_section">
                       <img src={object.image_src} alt="image" />
                     </div>
