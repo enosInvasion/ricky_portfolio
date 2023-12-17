@@ -24,7 +24,9 @@ const Contact = () => {
                   Easiest way of starting a conversation
                 </p>
               </div>
-              <p className="contact_subtext">rickygouda9827.sweden@gmail.com</p>
+              <p className="contact_subtext">
+                `rickygouda9827.sweden@gmail.com
+              </p>
             </div>
           </div>
           <div className="contact_card c_two">
