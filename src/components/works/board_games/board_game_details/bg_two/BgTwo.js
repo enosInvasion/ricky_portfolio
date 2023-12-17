@@ -28,7 +28,7 @@ const BgTwo = () => {
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
+        {/* <Caraousal props={imgList} /> */}
         <div className="objectives_and_initial_concepts_container">
           <h3>Objectives and Initial Concepts</h3>
           <p>

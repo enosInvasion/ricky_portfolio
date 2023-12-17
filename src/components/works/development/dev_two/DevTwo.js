@@ -3,19 +3,81 @@ import { useLocation } from "react-router-dom";
 import "./DevTwo.css";
 import Navbar from "../../../navbar/Navbar";
 import Caraousal from "../../project_details/caraousal/Caraousal";
+import lev_1 from "../../../../images/dev_two/Levels/2_1.png";
+import lev_2 from "../../../../images/dev_two/Levels/2_2.png";
+import lev_3 from "../../../../images/dev_two/Levels/2_3.png";
+import blu_1 from "../../../../images/dev_two/Development/2C_1.png";
+import blu_2 from "../../../../images/dev_two/Development/2C_2.png";
+import blu_3 from "../../../../images/dev_two/Development/2C_3.png";
+import blu_4 from "../../../../images/dev_two/Development/2C_4.png";
+import blu_5 from "../../../../images/dev_two/Development/2C_5.png";
+import blu_6 from "../../../../images/dev_two/Development/2C_6.png";
+import blu_7 from "../../../../images/dev_two/Development/2C_8.png";
+import blu_8 from "../../../../images/dev_two/Development/2C_9.png";
+import blu_9 from "../../../../images/dev_two/Development/2C_10.png";
+import blu_10 from "../../../../images/dev_two/Development/2C_11.png";
+import blu_11 from "../../../../images/dev_two/Development/2C_12.png";
+import blu_12 from "../../../../images/dev_two/Development/2C_13.png";
+import blu_13 from "../../../../images/dev_two/Development/2C_14.png";
+import blu_14 from "../../../../images/dev_two/Development/2C_15.png";
+import blu_15 from "../../../../images/dev_two/Development/2C_16.png";
+import blu_16 from "../../../../images/dev_two/Development/2C_17.png";
+import blu_17 from "../../../../images/dev_two/Development/2C_18.png";
+import blu_18 from "../../../../images/dev_two/Development/2C_19.png";
+import blu_19 from "../../../../images/dev_two/Development/2C_20.png";
+import ui_1 from "../../../../images/dev_two/UI/2U_1.png";
+import ui_2 from "../../../../images/dev_two/UI/2U_2.png";
+import ui_3 from "../../../../images/dev_two/UI/2U_3.png";
+import ui_4 from "../../../../images/dev_two/UI/2U_4.png";
+import ui_5 from "../../../../images/dev_two/UI/2U_5.png";
+import ui_6 from "../../../../images/dev_two/UI/2U_6.png";
+import ui_7 from "../../../../images/dev_two/UI/2U_7.png";
+import ui_8 from "../../../../images/dev_two/UI/2U_8.png";
+import ui_9 from "../../../../images/dev_two/UI/2U_9.png";
+import ui_10 from "../../../../images/dev_two/UI/2U_10.png";
 
 const DevTwo = () => {
   const location = useLocation();
   const imgList = [];
-  const levelImgList = [];
-  const bluePrintImgList = [];
-  const uiImgList = [];
+  const levelImgList = [lev_1, lev_2, lev_3];
+  const bluePrintImgList = [
+    blu_1,
+    blu_2,
+    blu_3,
+    blu_4,
+    blu_5,
+    blu_6,
+    blu_7,
+    blu_8,
+    blu_9,
+    blu_10,
+    blu_11,
+    blu_12,
+    blu_13,
+    blu_14,
+    blu_15,
+    blu_16,
+    blu_17,
+    blu_18,
+    blu_19,
+  ];
+  const uiImgList = [
+    ui_1,
+    ui_2,
+    ui_3,
+    ui_4,
+    ui_5,
+    ui_6,
+    ui_7,
+    ui_8,
+    ui_9,
+    ui_10,
+  ];
   return (
     <div className="dev_two_container">
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
         <div className="dev_two_c_one">
           <h2>Objective and Concept : </h2>
           <p>

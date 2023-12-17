@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profilePic from "../../../images/kratos_bg_removed.png";
+import profilePic from "../../../images/rickyaai_dp_new_copy.png";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
         <div className="about_text_section">
           <div className="highlighted_text">Video Game Developer</div>
           <div className="about_section_heading">
-            <h1>I'm Jose Morino</h1>
+            <h1>I'm Sahashransu Gouda.</h1>
           </div>
           <div className="about_section_description">
             I build games that'll make your head spin. If you are

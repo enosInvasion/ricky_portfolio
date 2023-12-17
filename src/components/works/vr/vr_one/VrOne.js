@@ -13,7 +13,9 @@ const VrOne = () => {
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
+        <a href="https://medvr.education/solution/tracheostomy-care/">
+          https://medvr.education/solution/tracheostomy-care/
+        </a>
         <div className="vrone_c_one">
           <h3>About : </h3>
           <p>
@@ -165,6 +167,272 @@ const VrOne = () => {
           <p>
             Remove the oxygen trach collar by unsnapping it from one side,
             ensuring careful handling to prevent damage.
+          </p>
+          <h5>Tubing Tracing : </h5>
+          <p>
+            Examine the tubing from the patient to its point of origin to
+            confirm the appropriate connection for attaching the syringe to the
+            cuff pilot balloon port.
+          </p>
+          <h5>Syringe Attachment : </h5>
+          <p>
+            With one hand, hold the cuff balloon port, and with the other hand,
+            take the 10cc syringe and attach it to the cuff balloon port with a
+            twisting motion to secure it in place.
+          </p>
+          <h5>Syringe Withdrawal : </h5>
+          <p>
+            Grasp the syringe with one hand and, with the other hand, slowly
+            withdraw the syringe plunger until resistance is encountered. Then,
+            twist the syringe with one hand while holding the port with the
+            other hand to safely remove the syringe.
+          </p>
+          <h5>Stethoscope Placement : </h5>
+          <p>
+            During the patient's inspiration, position a stethoscope over the
+            larynx to listen for a small air leak, which is an important part of
+            the procedure.
+          </p>
+          <h5>Syringe Preparation : </h5>
+          <p>
+            Take a 10cc syringe with your left hand and, with your right hand,
+            pull back on the plunger until 10cc of air is in the syringe. Attach
+            the syringe to the cuff pilot balloon port, and depress the syringe
+            slowly with your right thumb until fully depressed.
+          </p>
+          <h5>Syringe Removal : </h5>
+          <p>
+            After completing the syringe operation, twist to remove the syringe
+            safely.
+          </p>
+          <h5>Cuff Pilot Balloon Port Attachment : </h5>
+          <p>
+            Connect the cuff pilot balloon port to the cuff pressure manometer.
+          </p>
+          <h5>Pressure Adjustment : </h5>
+          <p>
+            Verify that the cuff pressure reads between 20 to 25 cm H2O. If the
+            manometer reads below this range (e.g., 15 cm H2O), squeeze the
+            manometer bulb with your hand until the desired pressure of 20 to 25
+            cm H2O is achieved.
+          </p>
+          <h5>Separation of Components : </h5>
+          <p>
+            To complete the cuff pressure adjustment, grasp the cuff pilot
+            balloon port with your left hand and the manometer with your right
+            hand, and gently pull them apart.
+          </p>
+          <h5>Trach Collar Placement : </h5>
+          <p>Snap the trach collar into its designated place.</p>
+          <h5>Lung Assessment : </h5>
+          <p>
+            Conclude the procedure by using a stethoscope to listen to the
+            patient's lungs, ensuring that everything is functioning as expected
+            and the patient's well-being is maintained.
+          </p>
+        </div>
+        <div className="vrone_c_five">
+          <h3>Lesson - 3 - Opened Suctioning : </h3>
+          <p>
+            In order to prevent blockages, preserve the tracheostomy tube's
+            integrity, and keep the tube clear for comfortable breathing,
+            suctioning is a crucial procedure. Patients who do not require a
+            continuous oxygen supply can utilize the open suctioning method.
+            This virtual scenario includes a virtual patient, along with other
+            necessary equipment and affordances like a suction machine and
+            catheter kit. With thorough guidance and instructions, users can
+            hone the skill to perfection.
+          </p>
+          <h4>Procedure : </h4>
+          <h5>Introduction and Verification : </h5>
+          <p>
+            Commence the procedure by introducing yourself to the patient and
+            confirming their identity. Informed consent for changing and
+            cleaning the patient's tracheostomy should be obtained from the
+            patient.
+          </p>
+          <h5>Hand Sanitization : </h5>
+          <p>
+            Prior to any procedure, ensure hand hygiene by thoroughly cleaning
+            your hands with hand sanitizer to minimize the risk of
+            contamination.
+          </p>
+          <h5>Vital Sign Check : </h5>
+          <p>
+            Utilize the monitor to check the patient's blood pressure, heart
+            rate, respiratory rate, and O2 saturation. Press the button on the
+            monitor to cycle through blood pressure measurements.
+          </p>
+          <h5>Breath Sounds Assessment : </h5>
+          <p>
+            With a stethoscope, auscultate breath sounds over both the upper and
+            lower, as well as the left and right sides of the patient's chest.
+            Listen in the following sequence: right upper to left upper, then
+            right lower to left lower chest.
+          </p>
+          <h5>Patient Explanation : </h5>
+          <p>
+            Clearly explain the upcoming procedure to the patient, ensuring they
+            are fully informed and comfortable with the process.
+          </p>
+          <h5>Hand Sanitization : </h5>
+          <p>
+            Reiterate hand hygiene by cleaning your hands with hand sanitizer.
+          </p>
+          <h5>Glove Preparation : </h5>
+          <p>
+            Retrieve gloves from the non-sterile glove box with the respective
+            hands to wear them.
+          </p>
+          <h5>Sterile Field Setup : </h5>
+          <p>
+            Place a sterile field on the patient's chest, taking care to
+            maintain a sterile environment throughout the procedure.
+          </p>
+          <h5>Saline Solution Preparation : </h5>
+          <p>
+            Open the bottle cap with your left hand and pour the saline solution
+            into a kidney basin for later use.
+          </p>
+          <h5>Sterile Glove Application : </h5>
+          <p>
+            Open the kit with your right hand. Dispose of non-sterile gloves and
+            wear the sterile gloves provided inside the kit to maintain a
+            sterile field.
+          </p>
+          <h5>Catheter Handling : </h5>
+          <p>
+            Using your dominant (sterile) hand, pick up the catheter, ensuring
+            it remains coiled to prevent contact with non-sterile objects.
+          </p>
+          <h5>Catheter Attachment : </h5>
+          <p>
+            With your non-dominant (sterile) hand, manipulate the connecting
+            tubing and attach the suction catheter to the tubing. Adjust the
+            suction regulator to 120 mmHg with your left hand. Place your index
+            finger over the catheter opening to test suction.
+          </p>
+          <h5>Lubrication : </h5>
+          <p>
+            Dip the catheter tip in normal saline solution or sterile water to
+            lubricate the outside of the catheter, reducing tissue trauma during
+            insertion.
+          </p>
+          <h5>Internal Lubrication : </h5>
+          <p>
+            While the catheter tip is immersed in sterile normal saline solution
+            or sterile water, occlude the suction control valve with the thumb
+            of your non-dominant (non-sterile) hand. Suction a small amount of
+            solution or water through the catheter to lubricate its inside,
+            facilitating the passage of secretions.
+          </p>
+          <h5>Hyperoxygenation : </h5>
+          <p>
+            Administer 100% oxygen to the patient for 30 to 60 seconds to
+            hyperoxygenate. This can be done using a ventilator by pressing the
+            hyperoxygenate button.
+          </p>
+          <h5>Trach Tube Disconnection : </h5>
+          <p>
+            Gently disconnect the vent tube at the tracheostomy using your left
+            thumb and index finger. Let it rest on a sterile drape.
+          </p>
+          <h5>Catheter Insertion : </h5>
+          <p>
+            With your right hand, gently insert the suction catheter into the
+            tracheostomy opening until resistance is encountered or until the
+            patient initiates a productive cough, up to a maximum of 6 inches.
+          </p>
+          <h5>Catheter Removal : </h5>
+          <p>
+            Place a non-dominant thumb over the control valve and simultaneously
+            withdraw the suction catheter. Use your dominant hand to grasp the
+            suction catheter with your thumb and forefinger, gently pulling it
+            out while employing a rotating motion. Continue pulling and rolling
+            the catheter until the catheter tip exits the tracheostomy opening.
+          </p>
+          <h5>Tracheostomy Tube Stabilization: : </h5>
+          <p>
+            Utilize your non-dominant (non-sterile) hand to stabilize the tip of
+            the tracheostomy tube while withdrawing the catheter, preventing
+            mucous membrane irritation or accidental extubation.
+          </p>
+          <h5>Trach Collar Placement : </h5>
+          <p>
+            Replace the trach collar over the tracheostomy and securely snap it
+            into place.
+          </p>
+          <h5>Vital Sign Check : </h5>
+          <p>
+            Press the button on the monitor to cycle through blood pressure and
+            vitals monitoring.
+          </p>
+          <h5>Breath Sounds Assessment : </h5>
+          <p>
+            Re-auscultate breath sounds over both the upper and lower, as well
+            as the left and right sides of the patient's chest, following the
+            same sequence: right upper to left upper, then right lower to left
+            lower chest.
+          </p>
+          <h5>Documentation : </h5>
+          <p>
+            Conclude the procedure by meticulously documenting all relevant
+            details in the tablet, ensuring comprehensive record-keeping.
+          </p>
+        </div>
+        <div className="vrone_c_six">
+          <h3>Lesson - 4 - Closed Suctioning : </h3>
+          <p>
+            Patients in critical care who have a tracheostomy tube may need a
+            constant flow of oxygen. Maintaining effective breathing and
+            preventing blockages both depend on suctioning. The closed
+            suctioning method is applied in such a situation. In this module,
+            students will practice using an in-line catheter for suctioning. In
+            order to adapt, learners will connect the ventilator and in-line
+            catheter, maintaining the oxygen supply while also carrying out
+            suctioning. Complete and efficient practice in the procedure is
+            provided by adequate affordance in conjunction with comprehensive
+            instruction.
+          </p>
+          <h5>Introduction and Verification : </h5>
+          <p>
+            Commence the procedure by introducing yourself to the patient and
+            confirming their identity. Informed consent for suctioning the
+            patient's tracheostomy should be obtained from the patient.
+          </p>
+          <h5>Hand Sanitization : </h5>
+          <p>
+            Prior to any procedure, ensure hand hygiene by thoroughly cleaning
+            your hands with hand sanitizer to minimize the risk of
+            contamination.
+          </p>
+          <h5>Vital Sign Check : </h5>
+          <p>
+            Utilize the monitor to check the patient's blood pressure, heart
+            rate, respiratory rate, and O2 saturation. Press the button on the
+            monitor to cycle through blood pressure measurements.
+          </p>
+          <h5>Breath Sounds Assessment : </h5>
+          <p>
+            With a stethoscope, auscultate breath sounds over both the upper and
+            lower, as well as the left and right sides of the patient's chest.
+            Listen in the following sequence: right upper to left upper, then
+            right lower to left lower chest.
+          </p>
+          <h5>Hand Sanitization : </h5>
+          <p>
+            Reiterate hand hygiene by cleaning your hands with hand sanitizer.
+          </p>
+          <h5>Patient Explanation : </h5>
+          <p>
+            Make sure the patient is completely informed and at ease with the
+            impending procedure of attaching a catheter to the tracheostomy and
+            suctioning out all the secretion to help breathe easier.
+          </p>
+          <h5>Glove Preparation : </h5>
+          <p>
+            Retrieve gloves from the non-sterile glove box with the respective
+            hands to wear them.
           </p>
         </div>
       </div>

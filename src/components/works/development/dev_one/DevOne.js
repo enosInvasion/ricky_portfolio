@@ -3,13 +3,78 @@ import "./DevOne.css";
 import Navbar from "../../../navbar/Navbar";
 import Caraousal from "../../project_details/caraousal/Caraousal";
 import { useLocation } from "react-router-dom";
+import level_1 from "../../../../images/dev_one/Level/1_1.png";
+import level_2 from "../../../../images/dev_one/Level/1_2.png";
+import level_3 from "../../../../images/dev_one/Level/1_3.png";
+import level_4 from "../../../../images/dev_one/Level/1_4.png";
+import level_5 from "../../../../images/dev_one/Level/1_5.png";
+import level_6 from "../../../../images/dev_one/Level/1_6.png";
+import level_7 from "../../../../images/dev_one/Level/1_7.png";
+import code_1 from "../../../../images/dev_one/Codes/1C_1.png";
+import code_2 from "../../../../images/dev_one/Codes/1C_2.png";
+import code_3 from "../../../../images/dev_one/Codes/1C_3.png";
+import code_4 from "../../../../images/dev_one/Codes/1C_4.png";
+import code_5 from "../../../../images/dev_one/Codes/1C_5.png";
+import code_6 from "../../../../images/dev_one/Codes/1C_6.png";
+import code_7 from "../../../../images/dev_one/Codes/1C_7.png";
+import code_8 from "../../../../images/dev_one/Codes/1C_8.png";
+import code_9 from "../../../../images/dev_one/Codes/1C_9.png";
+import ui_1 from "../../../../images/dev_one/UI/1U_1.1.png";
+import ui_2 from "../../../../images/dev_one/UI/1U_1.png";
+import ui_3 from "../../../../images/dev_one/UI/1U_2.1.png";
+import ui_4 from "../../../../images/dev_one/UI/1U_2.2.png";
+import ui_5 from "../../../../images/dev_one/UI/1U_2.3.png";
+import ui_6 from "../../../../images/dev_one/UI/1U_2.png";
+import ui_7 from "../../../../images/dev_one/UI/1U_3.1.png";
+import ui_8 from "../../../../images/dev_one/UI/1U_3.2.png";
+import ui_9 from "../../../../images/dev_one/UI/1U_3.3.png";
+import ui_10 from "../../../../images/dev_one/UI/1U_3.4.png";
+import ui_11 from "../../../../images/dev_one/UI/1U_3.png";
+import ui_12 from "../../../../images/dev_one/UI/1U_4.1.png";
+import ui_13 from "../../../../images/dev_one/UI/1U_4.png";
+import ui_14 from "../../../../images/dev_one/UI/1U_5.1.png";
+import ui_15 from "../../../../images/dev_one/UI/1U_5.png";
 
 const DevOne = () => {
   const location = useLocation();
   const imgList = [];
-  const levelImgList = [];
-  const blueImgList = [];
-  const uiImgList = [];
+  const levelImgList = [
+    level_1,
+    level_2,
+    level_3,
+    level_4,
+    level_5,
+    level_6,
+    level_7,
+  ];
+  const blueImgList = [
+    code_1,
+    code_2,
+    code_3,
+    code_4,
+    code_5,
+    code_6,
+    code_7,
+    code_8,
+    code_9,
+  ];
+  const uiImgList = [
+    ui_1,
+    ui_1,
+    ui_3,
+    ui_4,
+    ui_5,
+    ui_6,
+    ui_7,
+    ui_8,
+    ui_9,
+    ui_10,
+    ui_11,
+    ui_12,
+    ui_13,
+    ui_14,
+    ui_15,
+  ];
   return (
     <div className="dev_one_container">
       <Navbar />

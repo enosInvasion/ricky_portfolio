@@ -25,6 +25,9 @@ import DevOne from "./components/works/development/dev_one/DevOne";
 import DevTwo from "./components/works/development/dev_two/DevTwo";
 import DevThree from "./components/works/development/dev_three/DevThree";
 import VrOne from "./components/works/vr/vr_one/VrOne";
+import VrTwo from "./components/works/vr/vr_two/VrTwo";
+import VrThree from "./components/works/vr/vr_three/VrThree";
+import VrFour from "./components/works/vr/vr_four/VrFour";
 
 function App() {
   return (
@@ -38,6 +41,14 @@ function App() {
         <Route path="/works/vrprojects" element={<VRProjects />} />
         <Route path="/works/boardgames" element={<BoardGames />} />
         <Route path="/works/:id/projectdetails" element={<ProjectDetails />} />
+
+        <Route path="/works/mainpage/dev_1" element={<DevOne />} />
+        <Route path="/works/mainpage/dev_3" element={<DevThree />} />
+        <Route path="/works/mainpage/vr_1" element={<VrOne />} />
+        <Route path="/works/mainpage/vr_2" element={<VrTwo />} />
+        <Route path="/works/mainpage/board2/" element={<BgTwo />} />
+        <Route path="/works/mainpage/prot_3" element={<ProtThree />} />
+
         {/* baord games paths */}
         <Route path="/works/boardgames/board1" element={<BgOne />} />
         <Route path="/works/boardgames/board2" element={<BgTwo />} />
@@ -58,6 +69,9 @@ function App() {
         <Route path="/works/developmentdetails/dev_3" element={<DevThree />} />
         {/* VR projects path */}
         <Route path="/works/vrprojects/vr_1" element={<VrOne />} />
+        <Route path="/works/vrprojects/vr_2" element={<VrTwo />} />
+        <Route path="/works/vrprojects/vr_3" element={<VrThree />} />
+        <Route path="/works/vrprojects/vr_4" element={<VrFour />} />
       </Routes>
     </Router>
   );

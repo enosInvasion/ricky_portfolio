@@ -61,9 +61,14 @@
 .works_image {
     display: flex;
     align-items: center;
-    width: 190px;
+    width: 120px;
     height: auto;
     border-radius: 6px;
+}
+
+.board_image {
+    height: 120px;
+    width: 190px;
 }
 
 .design_card_container {
@@ -87,10 +92,12 @@
 
 .works_card_section {
     margin-top: 100px;
+    height: auto;
 
 }
 
 .works_card {
+    height: 450px;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', monospace;

@@ -24,7 +24,7 @@ const Contact = () => {
                   Easiest way of starting a conversation
                 </p>
               </div>
-              <p className="contact_subtext">sahashranshugouda@gmail.com</p>
+              <p className="contact_subtext">rickygouda9827.sweden@gmail.com</p>
             </div>
           </div>
           <div className="contact_card c_two">
@@ -48,7 +48,7 @@ const Contact = () => {
                 <h3>Ring me</h3>
                 <p>Easiest way of starting a conversation</p>
               </div>
-              <p className="contact_subtext">+11 9999999999</p>
+              <p className="contact_subtext">+46 762882862 , +91 7008847108</p>
             </div>
           </div>
         </div>

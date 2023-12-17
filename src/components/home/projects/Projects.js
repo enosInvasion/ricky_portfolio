@@ -11,52 +11,16 @@ const Projects = () => {
   return (
     <div className="projects_container">
       <div className="projects_leftside">
-        <div className="feature_card" onClick={() => navigate("/works/design")}>
-          <div className="card_text_section">
-            <div className="heading_description">
-              <h3 className="heading_text">Design Projects</h3>
-              <p className="heading_small_text">
-                A series of VR Projects that I have done in the past
-              </p>
-            </div>
-            <div className="project_count">
-              <p>3 Projects</p>
-            </div>
-          </div>
-          <div className="card_logo_section">
-            <DesignServicesOutlinedIcon />
-          </div>
-        </div>
-        <div
-          className="feature_card"
-          onClick={() => {
-            navigate("/works/vrprojects");
-          }}
-        >
-          <div className="card_text_section">
-            <div className="heading_description">
-              <h3 className="heading_text">VR Projects</h3>
-              <p className="heading_small_text">
-                A series of VR Projects that I have done in the past
-              </p>
-            </div>
-            <div className="project_count">
-              <p>3 Projects</p>
-            </div>
-          </div>
-          <div className="card_logo_section">
-            <ViewInArOutlinedIcon />
-          </div>
-        </div>
         <div
           className="feature_card"
           onClick={() => navigate("works/development")}
         >
           <div className="card_text_section">
             <div className="heading_description">
-              <h3 className="heading_text">Game Dev Projects</h3>
+              <h3 className="heading_text">Development Projects</h3>
               <p className="heading_small_text">
-                A series of VR Projects that I have done in the past
+                A series of Game Development Projects that I have done in the
+                past.
               </p>
             </div>
             <div className="project_count">
@@ -65,6 +29,43 @@ const Projects = () => {
           </div>
           <div className="card_logo_section">
             <VideogameAssetOutlinedIcon />
+          </div>
+        </div>
+        <div
+          className="feature_card"
+          onClick={() => {
+            navigate("/works/prototypes");
+          }}
+        >
+          <div className="card_text_section">
+            <div className="heading_description">
+              <h3 className="heading_text">Prototype Projects</h3>
+              <p className="heading_small_text">
+                A series of Game Prototypes that I have done in the past.
+              </p>
+            </div>
+            <div className="project_count">
+              <p>4 Projects</p>
+            </div>
+          </div>
+          <div className="card_logo_section">
+            <ViewInArOutlinedIcon />
+          </div>
+        </div>
+        <div className="feature_card" onClick={() => navigate("/works/design")}>
+          <div className="card_text_section">
+            <div className="heading_description">
+              <h3 className="heading_text">Design Projects</h3>
+              <p className="heading_small_text">
+                A series of Design Projects that I have done in the past.
+              </p>
+            </div>
+            <div className="project_count">
+              <p>17 Projects</p>
+            </div>
+          </div>
+          <div className="card_logo_section">
+            <DesignServicesOutlinedIcon />
           </div>
         </div>
       </div>

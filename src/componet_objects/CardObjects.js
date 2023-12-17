@@ -19,83 +19,89 @@ import des_14 from "../images/design/design_14.jpg";
 import des_15 from "../images/design/design_15.png";
 import des_16 from "../images/design/design_16.jpg";
 import des_17 from "../images/design/design_17.png";
+import prot_1 from "../images/prototype/Prototype/1_1.png";
+import prot_2 from "../images/prototype/Prototype/2_8.png";
+import prot_3 from "../images/prototype/Prototype/3_7.png";
+import prot_4 from "../images/prototype/Prototype/4_1.png";
+import bgone from "../images/bg_one.png";
+import col_rush from "../images/bottom_carousal/Colrush_1.jpg";
+import DevOne from "../images/dev_one/Level/1_3.png";
+import DevTwo from "../images/dev_two/Levels/2_1.png";
+import DevThree from "../images/dev_three/Level/3L_2.png";
+import meetingOne from "../images/bottom_carousal/TheMeeting_1.jpg";
+import mShapesThree from "../images/bottom_carousal/MediaShapes_3.jpg";
+import trach from "../images/Trach-L3.jpg";
+import htt from "../images/HTT-L1.jpg";
+import pph from "../images/PPH-main.jpg";
+import cvc from "../images/CVC-L1.jpg";
+import sb_1 from "../images/bottom_carousal/sb_1.jpg";
+import trip_down from "../images/trip_down.jpg";
 
 const main_card_object_list = [
   {
-    id: "main_1",
-    title: "main card",
-    image_src: VRProjectsImage,
-    project_title: "Lorem ipsum",
+    id: "dev_3",
+    title: "AMAZE - A Third Person Adventure",
+    image_src: DevThree,
+    project_title: "AMAZE - A Third Person Adventure",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Development",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "AMAZE is an enthralling and thought-provoking video game that immerses players in the shoes of an archaeology student on an intriguing quest.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
-    id: "main_2",
-    title: "main card",
-    image_src: DesignProjectsImage,
-    project_title: "Lorem ipsum",
+    id: "dev_1",
+    title: "Tiretio - A First Person Shooter",
+    image_src: DevOne,
+    project_title: "Tiretio - A First Person Shooter",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Development",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "My main objective is to create a captivating first-person shooting game to showcase my expertise in game development.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
-    id: "main_3",
-    title: "main card",
-    image_src: DesignProjectsImage,
-    project_title: "Lorem ipsum",
+    id: "prot_3",
+    title: "THE CHRONICLES OF AMUSOR",
+    image_src: prot_3,
+    project_title: "THE CHRONICLES OF AMUSOR",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Prototype",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "The theme of the challenge that led to the creation of this title is Haunted House. Sincerely, not every member of the team was aware of this",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
-    id: "main_4",
-    title: "main card",
-    image_src: BoardGamesImage,
-    project_title: "Lorem ipsum",
+    id: "board2",
+    title: "Serious Business",
+    image_src: sb_1,
+    project_title: "Serious Business",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Board Games",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "Our instructions were to create a new game using ‘Sissy Fight’ as a starting point, with a requirement that we maintain the aspect of simultaneously revealed action cards for our final game. ",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
-    id: "main_5",
-    title: "main card",
-    image_src: BoardGamesImage,
-    project_title: "Lorem ipsum",
+    id: "vr_1",
+    title: "Tracheostomy Care",
+    image_src: trach,
+    project_title: "Tracheostomy Care",
     created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    project_type: "Virtual Reality",
+    project_description: `A tracheostomy procedure was necessary for Patrick, 57, because of an infection in his epiglottis. It is your duty as a nurse to carry out post-operative tracheostomy care procedures. 
+    The tracheostomy procedure is a major surgical procedure that entails a significant risk of complications.`,
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
-    id: "main_6",
-    title: "main card",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
+    id: "vr_2",
+    title: "Head to Toe Assessment",
+    image_src: htt,
+    project_title: "Head to Toe Assessment",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Virtual Reality",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-  },
-  {
-    id: "main_7",
-    title: "main card",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
-    created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "This 42-year-old corporate executive is Mike, and he is undergoing an outpatient surgical procedure. The outpatient surgery nurse is required to conduct a head-to-toe assessment prior to the procedure.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
 ];
@@ -294,78 +300,34 @@ const development_card_object_list = [
   {
     id: "dev_1",
     title: "Tiretio - A First Person Shooter",
-    image_src: VRProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: DevOne,
+    project_title: "Tiretio - A First Person Shooter",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Development",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "My main objective is to create a captivating first-person shooting game to showcase my expertise in game development.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
     id: "dev_2",
     title: "Pacman - An Arcade Classic",
-    image_src: DesignProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: DevTwo,
+    project_title: "Pacman - An Arcade Classic",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Development",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "My objective for my second game in my indie game development journey was to pay homage to the classic arcade game Pac-Man while infusing it with a fresh and modern twist.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
     id: "dev_3",
     title: "AMAZE - A Third Person Adventure",
-    image_src: DesignProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: DevThree,
+    project_title: "AMAZE - A Third Person Adventure",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Development",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-  },
-  {
-    id: "dev_4",
-    title: "main card",
-    image_src: BoardGamesImage,
-    project_title: "Lorem ipsum",
-    created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-  },
-  {
-    id: "dev_5",
-    title: "main card",
-    image_src: BoardGamesImage,
-    project_title: "Lorem ipsum",
-    created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-  },
-  {
-    id: "dev_6",
-    title: "main card",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
-    created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-  },
-  {
-    id: "dev_7",
-    title: "main card",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
-    created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "AMAZE is an enthralling and thought-provoking video game that immerses players in the shoes of an archaeology student on an intriguing quest.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
 ];
@@ -374,45 +336,46 @@ const prototype_card_object_list = [
   {
     id: "prot_1",
     title: "LEVEL G41 - A LIVE ACTION ROLE PLAY",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: prot_1,
+    project_title: "LEVEL G41 - A LIVE ACTION ROLE PLAY",
     created_at: "04/03/2022",
     project_type: "Prototype",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "The game is played over Zoom via voice controls and is set in the G41 room at campus.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
     id: "prot_2",
     title: "MUR’S JOURNEY",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: prot_2,
+    project_title: "MUR’S JOURNEY",
     created_at: "04/03/2022",
     project_type: "Prototype",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "The Mur’s journey concept came during our brainstorming section. We decided to create a game where two players are lost in time after messing with an artefact in a museum.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
     id: "prot_3",
     title: "THE CHRONICLES OF AMUSOR",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: prot_3,
+    project_title: "THE CHRONICLES OF AMUSOR",
     created_at: "04/03/2022",
     project_type: "Prototype",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "The theme of the challenge that led to the creation of this title is Haunted House. Sincerely, not every member of the team was aware of this",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
     id: "prot_4",
     title: "FREDRICK THE FIREFIGHTER",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: prot_4,
+    project_title: "FREDRICK THE FIREFIGHTER",
     created_at: "04/03/2022",
     project_type: "Prototype",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    project_description: `Fredrick the FireFighter is a game in the puzzle-survival genre. The player takes control
+      of “Fredrick”, an experienced firefighter with a tragic past, specialized in extracting
+      civilians from flaming buildings.`,
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
 ];
@@ -421,177 +384,120 @@ const board_games_card_object_list = [
   {
     id: "board1",
     title: "Startics",
-    image_src: VRProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: bgone,
+    project_title: "Startics",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Baord Games",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "The game is inspired by politics and how, in a democratic system, agents can influence the state of affairs in their environment through voting and negotiation.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-    game_description:
-      "A game in action gnere where you experience a 3rd world stimulation.",
   },
   {
     id: "board2",
     title: "Serious Business",
-    image_src: DesignProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: sb_1,
+    project_title: "Serious Business",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Board Games",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "Our instructions were to create a new game using ‘Sissy Fight’ as a starting point, with a requirement that we maintain the aspect of simultaneously revealed action cards for our final game. ",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-    game_description:
-      "A game in action gnere where you experience a 3rd world stimulation.",
   },
   {
     id: "board3",
     title: "Colrush",
-    image_src: DesignProjectsImage,
-    project_title: "Lorem ipsum",
+    image_src: col_rush,
+    project_title: "Colrush",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Board Games",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "The Colrush game is a 3 player game; 2 players play as colonizers, and 1 player plays as the Governor.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-    game_description:
-      "A game in action gnere where you experience a 3rd world stimulation.",
   },
   {
     id: "board4",
     title: "The Meeting",
-    image_src: BoardGamesImage,
-    project_title: "Lorem ipsum",
+    image_src: meetingOne,
+    project_title: "The Meeting",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Board Games",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "My teammates and I were given the immediate task of creating a game that addressed either racism or colonialism.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-    game_description:
-      "A game in action gnere where you experience a 3rd world stimulation.",
   },
   {
     id: "board5",
     title: "Media Shapes",
-    image_src: BoardGamesImage,
-    project_title: "Lorem ipsum",
+    image_src: mShapesThree,
+    project_title: "Media Shapes",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Board Games",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "The seemingly unfair pattern of representation in media, as observed by Katha Pollitt1 named the Smurfette principle, defined as the practice in media, such as film and television, to include only one woman in an otherwise entirely male ensemble",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-    game_description:
-      "A game in action gnere where you experience a 3rd world stimulation.",
   },
   {
     id: "board6",
-    title: "main card",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
+    title: "A TRIP DOWN MEMORY LANE",
+    image_src: trip_down,
+    project_title: "A TRIP DOWN MEMORY LANE",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Board Games",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "We decided to tackle the theme of ‘appreciation’ in our game. We interpret this as appreciation connected to the story of The Hunter and The Fox Woman, and the lack of appreciation for the things we have, as well as the sorrow caused by the loss of those things. ",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-    game_description:
-      "A game in action gnere where you experience a 3rd world stimulation.",
-  },
-  {
-    id: "board7",
-    title: "main card",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
-    created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-    game_description:
-      "A game in action gnere where you experience a 3rd world stimulation.",
   },
 ];
 
 const vr_card_object_list = [
   {
     id: "vr_1",
-    title: "main card",
-    image_src: VRProjectsImage,
-    project_title: "Lorem ipsum",
+    title: "Tracheostomy Care",
+    image_src: trach,
+    project_title: "Tracheostomy Care",
     created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    project_type: "Virtual Reality",
+    project_description: `A tracheostomy procedure was necessary for Patrick, 57, because of an infection in his epiglottis. It is your duty as a nurse to carry out post-operative tracheostomy care procedures. 
+    The tracheostomy procedure is a major surgical procedure that entails a significant risk of complications.`,
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
     id: "vr_2",
-    title: "main card",
-    image_src: DesignProjectsImage,
-    project_title: "Lorem ipsum",
+    title: "Head to Toe Assessment",
+    image_src: htt,
+    project_title: "Head to Toe Assessment",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Virtual Reality",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "This 42-year-old corporate executive is Mike, and he is undergoing an outpatient surgical procedure. The outpatient surgery nurse is required to conduct a head-to-toe assessment prior to the procedure.",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
     id: "vr_3",
-    title: "main card",
-    image_src: DesignProjectsImage,
-    project_title: "Lorem ipsum",
+    title: "Post-Partum Heamorage",
+    image_src: pph,
+    project_title: "Post-Partum Heamorage",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Virtual Reality",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "Postpartum hemorrhage, also known as PPH, is a serious vaginal bleeding that can become life-threatening if it is not recognized and treated promptly after childbirth",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
     id: "vr_4",
-    title: "main card",
-    image_src: BoardGamesImage,
-    project_title: "Lorem ipsum",
+    title: "CVC",
+    image_src: cvc,
+    project_title: "CVC",
     created_at: "04/03/2022",
-    project_type: "Design",
+    project_type: "Virtual Reality",
     project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-  },
-  {
-    id: "vr_5",
-    title: "main card",
-    image_src: BoardGamesImage,
-    project_title: "Lorem ipsum",
-    created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-  },
-  {
-    id: "vr_6",
-    title: "main card",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
-    created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
-  },
-  {
-    id: "vr_7",
-    title: "main card",
-    image_src: DevelopmentProjectsImage,
-    project_title: "Lorem ipsum",
-    created_at: "04/03/2022",
-    project_type: "Design",
-    project_description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "Jacob is a male patient who is 52 years old. He is admitted for an infection and has antibiotics ordered. There have been multiple attempts at placing IV access, but to no avail. An order for the implantation of a central venous catheter has been written by the attending physician",
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
 ];
 
 export {
+  main_card_object_list,
   design_card_object_list,
   development_card_object_list,
   prototype_card_object_list,
