@@ -3,13 +3,38 @@ import "./DevThree.css";
 import Navbar from "../../../navbar/Navbar";
 import Caraousal from "../../project_details/caraousal/Caraousal";
 import { useLocation } from "react-router-dom";
-
+import charImage from "../../../../images/dev_three/Development/3D_1.png";
+import locOne from "../../../../images/dev_three/Development/3D_2.0.png";
+import locTwo from "../../../../images/dev_three/Development/3D_2.1.png";
+import locThree from "../../../../images/dev_three/Development/3D_2.2.png";
+import locFour from "../../../../images/dev_three/Development/3D_2.3.png";
+import locFive from "../../../../images/dev_three/Development/3D_3.png";
+import locSix from "../../../../images/dev_three/Development/3D_4.png";
+import locSeven from "../../../../images/dev_three/Development/3D_5.png";
+import locEight from "../../../../images/dev_three/Development/3D_6.png";
+import locNine from "../../../../images/dev_three/Development/3D_7.png";
+import locTen from "../../../../images/dev_three/Development/3D_8.png";
+import locEleven from "../../../../images/dev_three/Development/3D_9.png";
 const DevThree = () => {
   const location = useLocation();
   const imgList = [];
   const levelImgList = [];
   const puzzelsImgList = [];
   const bpImgList = [];
+  const characterList = [charImage];
+  const locoList = [
+    locOne,
+    locTwo,
+    locThree,
+    locFour,
+    locFive,
+    locSix,
+    locSeven,
+    locEight,
+    locNine,
+    locTen,
+    locEleven,
+  ];
 
   return (
     <div className="dev_three_container">
@@ -371,8 +396,11 @@ const DevThree = () => {
           <Caraousal props={levelImgList} />
           <h3>Puzzels : </h3>
           <Caraousal props={puzzelsImgList} />
-          <h3>BluePrints : </h3>
-          <Caraousal props={bpImgList} />
+          <h3>BluePrints and Coding: </h3>
+          <h4>Character : </h4>
+          <Caraousal props={characterList} />
+          <h4>Locomotion : </h4>
+          <Caraousal props={locoList} />
         </div>
         <div className="dev_three_c_eight">
           <h2>Lesson learned : </h2>

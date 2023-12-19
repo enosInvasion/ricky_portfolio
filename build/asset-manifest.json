@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ebbc74ec.css",
-    "main.js": "/static/js/main.73129316.js",
+    "main.js": "/static/js/main.7b0d1177.js",
     "static/media/design_11.png": "/static/media/design_11.764a20b12d1370d6ffd7.png",
     "static/media/design_15.png": "/static/media/design_15.8b9e4848020490e51439.png",
     "static/media/design_17.png": "/static/media/design_17.3d94aa97dd485587e420.png",
@@ -13,6 +13,7 @@
     "static/media/design_3.png": "/static/media/design_3.ddf71f2dd19e20cb1c68.png",
     "static/media/design_1.png": "/static/media/design_1.be816510d91e045c560e.png",
     "static/media/sb_1.jpg": "/static/media/sb_1.e4db779a4c669b249e43.jpg",
+    "static/media/3D_1.png": "/static/media/3D_1.c178a6104a43a3b2ca3e.png",
     "static/media/1_7.png": "/static/media/1_7.0f419ee499666991e419.png",
     "static/media/1_3.png": "/static/media/1_3.9f1c2f3f67d103225a5f.png",
     "static/media/1_2.png": "/static/media/1_2.561ef95735e1f44a612c.png",
@@ -42,10 +43,17 @@
     "static/media/2C_17.png": "/static/media/2C_17.8cb6b5791ce8b2af93e3.png",
     "static/media/1U_5.1.png": "/static/media/1U_5.1.a5e8e383f52d383d14a8.png",
     "static/media/valorant.jpg": "/static/media/valorant.373653f8dcbd2098eed0.jpg",
+    "static/media/3D_6.png": "/static/media/3D_6.95e4583b9f105c00b978.png",
     "static/media/1C_4.png": "/static/media/1C_4.6eabecae12cb4b54683d.png",
+    "static/media/3D_3.png": "/static/media/3D_3.4d38539da647936fcb77.png",
+    "static/media/3D_7.png": "/static/media/3D_7.e534521d89820dc6b790.png",
+    "static/media/3D_9.png": "/static/media/3D_9.45d15f8338ffce85e435.png",
+    "static/media/3D_5.png": "/static/media/3D_5.012f3625cb804d4f2e2e.png",
+    "static/media/3D_4.png": "/static/media/3D_4.f4c7a1e42315eb4fb52e.png",
     "static/media/2C_5.png": "/static/media/2C_5.52f4b94b260956d9a71f.png",
     "static/media/1C_5.png": "/static/media/1C_5.f4228a075029576c12db.png",
     "static/media/1C_2.png": "/static/media/1C_2.575b6845e4cfe4466153.png",
+    "static/media/3D_8.png": "/static/media/3D_8.955e2d435ee749f7d251.png",
     "static/media/vr_projects.jpg": "/static/media/vr_projects.017c79e0062e415d46a1.jpg",
     "static/media/1C_6.png": "/static/media/1C_6.0eace5d344f0eb390bea.png",
     "static/media/2C_6.png": "/static/media/2C_6.bc7709d1d7c90fba00af.png",
@@ -82,14 +90,18 @@
     "static/media/1U_3.1.png": "/static/media/1U_3.1.87f3c40463e1f3a9138d.png",
     "static/media/1U_1.1.png": "/static/media/1U_1.1.801e4fadcd31a60e23a8.png",
     "static/media/2_8.png": "/static/media/2_8.ce16694d6814a21169b0.png",
+    "static/media/3D_2.0.png": "/static/media/3D_2.0.ff30e73690269580fbfe.png",
     "static/media/2U_1.png": "/static/media/2U_1.15260542f5e54a7e2a51.png",
+    "static/media/3D_2.3.png": "/static/media/3D_2.3.a065d291cb3891819509.png",
     "static/media/2C_10.png": "/static/media/2C_10.57048782de7cb53df2e1.png",
+    "static/media/3D_2.2.png": "/static/media/3D_2.2.f10a63e75335fc56c1c6.png",
     "static/media/design_bg_r.png": "/static/media/design_bg_r.33bbaa4056cbda527bcd.png",
     "static/media/2U_6.png": "/static/media/2U_6.53930709353cf4964e25.png",
     "static/media/1U_5.png": "/static/media/1U_5.e435ccb5c371f67f3bac.png",
     "static/media/2C_11.png": "/static/media/2C_11.d7aefdf3162e6aed1a32.png",
     "static/media/2C_18.png": "/static/media/2C_18.77dede00cd4e5f4bebd4.png",
     "static/media/CVC-L1.jpg": "/static/media/CVC-L1.05128f7f3d6699d9d6ab.jpg",
+    "static/media/3D_2.1.png": "/static/media/3D_2.1.9f291040cbb93f4cc48f.png",
     "static/media/3_15.png": "/static/media/3_15.22bb26b89559d0c1cf54.png",
     "static/media/2C_16.png": "/static/media/2C_16.e9e415d20ef7134dfeb9.png",
     "static/media/vr_bg_r.png": "/static/media/vr_bg_r.605616d0813bb3d0bb05.png",
@@ -146,10 +158,10 @@
     "static/media/at_icon.svg": "/static/media/at_icon.2aea7c87034754de5cc33f7ee79ba423.svg",
     "static/media/link_icon.svg": "/static/media/link_icon.14bd0ffabe8b1b8bd7de7e8449cab3ff.svg",
     "main.ebbc74ec.css.map": "/static/css/main.ebbc74ec.css.map",
-    "main.73129316.js.map": "/static/js/main.73129316.js.map"
+    "main.7b0d1177.js.map": "/static/js/main.7b0d1177.js.map"
   },
   "entrypoints": [
     "static/css/main.ebbc74ec.css",
-    "static/js/main.73129316.js"
+    "static/js/main.7b0d1177.js"
   ]
 }
