@@ -13,14 +13,54 @@ import locSix from "../../../../images/dev_three/Development/3D_4.png";
 import locSeven from "../../../../images/dev_three/Development/3D_5.png";
 import locEight from "../../../../images/dev_three/Development/3D_6.png";
 import locNine from "../../../../images/dev_three/Development/3D_7.png";
-import locTen from "../../../../images/dev_three/Development/3D_8.png";
-import locEleven from "../../../../images/dev_three/Development/3D_9.png";
+import fpOne from "../../../../images/dev_three/Development/3D_8.png";
+import fpTwo from "../../../../images/dev_three/Development/3D_9.png";
+import fpThree from "../../../../images/dev_three/Development/3D_10.png";
+import chaAniOne from "../../../../images/dev_three/Development/3D_11.png";
+import chaAniTwo from "../../../../images/dev_three/Development/3D_12.png";
+import chaAniThree from "../../../../images/dev_three/Development/3D_13.png";
+import chaAniFour from "../../../../images/dev_three/Development/3D_14.png";
+import chaAniFive from "../../../../images/dev_three/Development/3D_15.png";
+import chaAniSix from "../../../../images/dev_three/Development/3D_23.png";
+import levOne from "../../../../images/dev_three/Level/3L_1.png";
+import levTwo from "../../../../images/dev_three/Level/3L_2.png";
+import levThree from "../../../../images/dev_three/Level/3L_3.png";
+import levFour from "../../../../images/dev_three/Level/3L_4.png";
+import levFive from "../../../../images/dev_three/Level/3L_5.png";
+import levSix from "../../../../images/dev_three/Level/3L_6.png";
+import levSeven from "../../../../images/dev_three/Level/3L_7.png";
+import levEight from "../../../../images/dev_three/Level/3L_8.png";
+import levNine from "../../../../images/dev_three/Level/3L_9.png";
+import levTen from "../../../../images/dev_three/Level/3L_10.png";
+import levEleven from "../../../../images/dev_three/Level/3L_11.png";
+import puzOne from "../../../../images/dev_three/Level/3L_P_1.png";
+import puzTwo from "../../../../images/dev_three/Level/3L_P_2.png";
+import puzThree from "../../../../images/dev_three/Level/3L_P_3.png";
+import puzFour from "../../../../images/dev_three/Level/3L_P_4.png";
+import puzFive from "../../../../images/dev_three/Level/3L_P_5.png";
+import puzSix from "../../../../images/dev_three/Level/3L_P_6.png";
+import atIcon from "../../../../images/at_icon.svg";
+import twitter from "../../../../images/t_icon.svg";
+import github from "../../../../images/git_icon.svg";
+import insta from "../../../../images/instagram.svg";
+
 const DevThree = () => {
   const location = useLocation();
   const imgList = [];
-  const levelImgList = [];
-  const puzzelsImgList = [];
-  const bpImgList = [];
+  const levelImgList = [
+    levOne,
+    levTwo,
+    levThree,
+    levFour,
+    levFive,
+    levSix,
+    levSeven,
+    levEight,
+    levNine,
+    levTen,
+    levEleven,
+  ];
+  const puzzelsImgList = [puzOne, puzTwo, puzThree, puzFour, puzFive, puzSix];
   const characterList = [charImage];
   const locoList = [
     locOne,
@@ -32,16 +72,21 @@ const DevThree = () => {
     locSeven,
     locEight,
     locNine,
-    locTen,
-    locEleven,
   ];
+  const fpList = [fpOne, fpTwo, fpThree];
+  const charActOne = [chaAniOne];
+  const charActTwo = [chaAniTwo];
+  const charActThree = [chaAniThree];
+  const charActFour = [chaAniFour];
+  const charActFive = [chaAniFive];
+  const charActSix = [chaAniSix];
 
   return (
     <div className="dev_three_container">
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
+        <Caraousal props={levelImgList} />
         <div className="dev_three_c_one">
           <h2>Objective and Concept : </h2>
           <p>
@@ -392,15 +437,52 @@ const DevThree = () => {
         </div>
         <div className="dev_three_c_seven">
           <h2>Screenshots : </h2>
-          <h3>Levels : </h3>
-          <Caraousal props={levelImgList} />
-          <h3>Puzzels : </h3>
-          <Caraousal props={puzzelsImgList} />
-          <h3>BluePrints and Coding: </h3>
-          <h4>Character : </h4>
-          <Caraousal props={characterList} />
-          <h4>Locomotion : </h4>
-          <Caraousal props={locoList} />
+          <div>
+            <h3>Levels : </h3>
+            <Caraousal props={levelImgList} />
+          </div>
+          <div>
+            <h3>Puzzels : </h3>
+            <Caraousal props={puzzelsImgList} />
+          </div>
+          <div className="d_three_bp_container">
+            <h3>BluePrints and Coding: </h3>
+            <h4>Character : </h4>
+            <Caraousal props={characterList} />
+            <h4>Locomotion : </h4>
+            <Caraousal props={locoList} />
+            <h4>Foot Placement : </h4>
+            <Caraousal props={fpList} />
+          </div>
+          <div className="dev_three_ol_container">
+            <h4>Character Animation Montages : </h4>
+            <ol className="dev_three_ol">
+              <li>
+                <p className="dev_three_ol_p">Attack : </p>
+                <Caraousal props={charActOne} />
+              </li>
+              <li>
+                <p>Death : </p>
+                <Caraousal props={charActTwo} />
+              </li>
+              <li>
+                <p>Equip/Unequip : </p>
+                <Caraousal props={charActThree} />
+              </li>
+              <li>
+                <p>Hit React : </p>
+                <Caraousal props={charActFour} />
+              </li>
+              <li>
+                <p>Retargetter : </p>
+                <Caraousal props={charActFive} />
+              </li>
+              <li>
+                <p>Enemy : </p>
+                <Caraousal props={charActSix} />
+              </li>
+            </ol>
+          </div>
         </div>
         <div className="dev_three_c_eight">
           <h2>Lesson learned : </h2>
@@ -454,7 +536,7 @@ const DevThree = () => {
             programming and beyond.
           </h4>
         </div>
-        <div className="dev_three_c_eight">
+        <div className="dev_three_c_nine">
           <h2>Further Development : </h2>
           <p>
             The journey of developing "Amaze" revealed the potential for an even
@@ -518,6 +600,14 @@ const DevThree = () => {
             captivating and memorable. The possibilities for improvement are
             endless, and the future holds exciting potential for "Amaze."
           </p>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footer_icons">
+          <img className="footer_icon" src={atIcon} />
+          <img className="footer_icon" src={twitter} />
+          <img className="footer_icon" src={github} />
+          <img className="footer_icon" src={insta} />
         </div>
       </div>
     </div>

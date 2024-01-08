@@ -4,6 +4,10 @@ import Navbar from "../../navbar/Navbar";
 import { prototype_card_object_list } from "../../../componet_objects/CardObjects";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import atIcon from "../../../images/at_icon.svg";
+import twitter from "../../../images/t_icon.svg";
+import github from "../../../images/git_icon.svg";
+import insta from "../../../images/instagram.svg";
 const Prototypes = () => {
   const [id, setId] = useState("");
   const navigate = useNavigate();
@@ -64,6 +68,14 @@ const Prototypes = () => {
               })}
             </div>
           </div>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footer_icons">
+          <img className="footer_icon" src={atIcon} />
+          <img className="footer_icon" src={twitter} />
+          <img className="footer_icon" src={github} />
+          <img className="footer_icon" src={insta} />
         </div>
       </div>
     </div>

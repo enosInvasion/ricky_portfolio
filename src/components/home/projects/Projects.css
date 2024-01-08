@@ -17,9 +17,8 @@
 .projects_rightside {
     display: flex;
     row-gap: 30px;
-    
     flex-direction: column;
-    width: 45%;
+    width: fit-content;
     font-family: 'Roboto', monospace;
 }
 
@@ -118,4 +117,11 @@
     opacity: 0.9;
     font-size: 12px;
 
+}
+
+@media only screen and (min-width : 1920px) {
+    .projects_container {
+        justify-content: space-between;
+        padding: 2% 15%;
+    }
 }

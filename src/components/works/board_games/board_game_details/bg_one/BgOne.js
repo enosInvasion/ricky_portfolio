@@ -24,24 +24,8 @@ const BgOne = (details) => {
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
-        <div className="game_description">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero libero
-          ipsum quisquam vitae fuga aliquid, perferendis soluta optio id. Autem
-          eaque corrupti eius! Temporibus perferendis architecto optio vero!
-          Minima, illum.
-          {/* {location.state.object.game_description} */}
-        </div>
-        <div className="genre_features_section">
-          <div className="genre_section">
-            <h4 className="genre_title tit">Genre</h4>
-            <p className="genre_values des">Action, Adventure, RPG</p>
-          </div>
-          <div className="features_section">
-            <h4 className="feature_title tit">Features</h4>
-            <p className="des">Single Player</p>
-          </div>
-        </div>
+        {/* <Caraousal props={imgList} /> */}
+
         <div className="story_telling_container">
           <h3 className="story_telling_heading">Story Telling</h3>
           <p className="sotry_telling_content">

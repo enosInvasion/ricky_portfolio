@@ -41,7 +41,7 @@ const ProtTwo = () => {
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
+        <Caraousal props={centerLowerImgList} />
         <div className="prot_two_c_one">
           <h2>Game Concept</h2>
           <h3>Introduction</h3>

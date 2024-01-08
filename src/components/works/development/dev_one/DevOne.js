@@ -34,6 +34,10 @@ import ui_12 from "../../../../images/dev_one/UI/1U_4.1.png";
 import ui_13 from "../../../../images/dev_one/UI/1U_4.png";
 import ui_14 from "../../../../images/dev_one/UI/1U_5.1.png";
 import ui_15 from "../../../../images/dev_one/UI/1U_5.png";
+import atIcon from "../../../../images/at_icon.svg";
+import twitter from "../../../../images/t_icon.svg";
+import github from "../../../../images/git_icon.svg";
+import insta from "../../../../images/instagram.svg";
 
 const DevOne = () => {
   const location = useLocation();
@@ -80,7 +84,7 @@ const DevOne = () => {
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
+        <Caraousal props={levelImgList} />
         <div className="dev_one_c_one">
           <h2>Objective and Concept</h2>
           <p>
@@ -327,6 +331,14 @@ const DevOne = () => {
             development, the game can evolve into an even more engaging and
             polished experience.
           </p>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footer_icons">
+          <img className="footer_icon" src={atIcon} />
+          <img className="footer_icon" src={twitter} />
+          <img className="footer_icon" src={github} />
+          <img className="footer_icon" src={insta} />
         </div>
       </div>
     </div>

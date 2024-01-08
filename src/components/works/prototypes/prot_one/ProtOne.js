@@ -20,7 +20,7 @@ const ProtOne = () => {
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
+        <Caraousal props={bottomImgList} />
         <div className="prot_one_c_one">
           <h2>Game descriptions</h2>
           <p>
@@ -137,7 +137,7 @@ const ProtOne = () => {
           <p>
             Bright and funny, but with a feeling that something is not right.
           </p>
-          <img src="" alt="game_imge" />
+          {/* <img src="" alt="game_imge" /> */}
         </div>
         <div className="prot_one_c_eleven">
           <h3>Story</h3>
@@ -254,10 +254,9 @@ const ProtOne = () => {
             general guidelines of what to say.
           </p>
         </div>
-        <h3 className="caraousal_heading">
+        {/* <h3 className="caraousal_heading">
           The images below represent the game concept.
-        </h3>
-        <Caraousal props={bottomImgList} />
+        </h3> */}
       </div>
     </div>
   );

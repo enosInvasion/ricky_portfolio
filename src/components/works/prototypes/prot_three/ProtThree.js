@@ -26,6 +26,10 @@ import pthree20 from "../../../../images/prototype/Prototype/3_20.png";
 import pthree21 from "../../../../images/prototype/Prototype/3_21.png";
 import pthree22 from "../../../../images/prototype/Prototype/3_22.png";
 import pthree23 from "../../../../images/prototype/Prototype/3_23.png";
+import atIcon from "../../../../images/at_icon.svg";
+import twitter from "../../../../images/t_icon.svg";
+import github from "../../../../images/git_icon.svg";
+import insta from "../../../../images/instagram.svg";
 
 const ProtThree = () => {
   const location = useLocation();
@@ -37,13 +41,17 @@ const ProtThree = () => {
 
   var centerImgList = [pthree7, pthree8, pthree9, pthree10, pthree11];
   var centerBottomImgList = [pthree12, pthree13, pthree14, pthree15, pthree16];
-  var bottomImgList = [];
+  var bottomImgList = [pthree17, pthree18, pthree19];
+  var pthree20List = [pthree20];
+  var pthree21List = [pthree21];
+  var pthree22List = [pthree22];
+  var pthree23List = [pthree23];
   return (
     <div className="prot_three_container">
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
+        <Caraousal props={centerImgList} />
         <div className="prot_three_c_one">
           <h3>Introduction</h3>
           <p>
@@ -239,9 +247,7 @@ const ProtThree = () => {
                 object, a character can engage with it.
               </p>
               <div>
-                <img src={pthree17} alt="code" />
-                <img src={pthree18} alt="code" />
-                <img src={pthree19} alt="code" />
+                <Caraousal props={bottomImgList} />
               </div>
             </li>
             <li>
@@ -251,7 +257,7 @@ const ProtThree = () => {
                 obtain the key, which will cause the dead body to suddenly come
                 to life and provide them with a hint.
               </p>
-              <img src={pthree20} alt="code" />
+              <Caraousal props={pthree20List} />
             </li>
             <li>
               <p>
@@ -259,7 +265,7 @@ const ProtThree = () => {
                 the door. A predetermined period of time later, the door will
                 automatically close.
               </p>
-              <img src={pthree21} alt="code" />
+              <Caraousal props={pthree21List} />
             </li>
             <li>
               <p>
@@ -268,7 +274,7 @@ const ProtThree = () => {
                 the hint. The player can turn the book to read the hint as the
                 book is brought to their face smoothly.
               </p>
-              <img src={pthree22} alt="code" />
+              <Caraousal props={pthree22List} />
             </li>
             <li>
               <p>
@@ -277,11 +283,19 @@ const ProtThree = () => {
                 the skeleton by pressing the left mouse button when they see the
                 fire widget.
               </p>
-              <img src={pthree23} alt="code" />
+              <Caraousal props={pthree23List} />
             </li>
           </ol>
         </div>
         <div className="prot_three_c_nineteen"></div>
+      </div>
+      <div className="footer">
+        <div className="footer_icons">
+          <img className="footer_icon" src={atIcon} />
+          <img className="footer_icon" src={twitter} />
+          <img className="footer_icon" src={github} />
+          <img className="footer_icon" src={insta} />
+        </div>
       </div>
     </div>
   );

@@ -90,7 +90,7 @@ const main_card_object_list = [
     created_at: "04/03/2022",
     project_type: "Virtual Reality",
     project_description: `A tracheostomy procedure was necessary for Patrick, 57, because of an infection in his epiglottis. It is your duty as a nurse to carry out post-operative tracheostomy care procedures. 
-    The tracheostomy procedure is a major surgical procedure that entails a significant risk of complications.`,
+    `,
     carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
   },
   {
