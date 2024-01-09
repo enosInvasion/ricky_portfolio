@@ -4,6 +4,10 @@ import { useLocation } from "react-router-dom";
 import Caraousal from "../../project_details/caraousal/Caraousal";
 import Navbar from "../../../navbar/Navbar";
 import p1 from "../../../../images/prototype/Prototype/1_1.png";
+import atIcon from "../../../../images/at_icon.svg";
+import twitter from "../../../../images/t_icon.svg";
+import github from "../../../../images/git_icon.svg";
+import insta from "../../../../images/instagram.svg";
 
 const ProtOne = () => {
   const location = useLocation();
@@ -254,9 +258,14 @@ const ProtOne = () => {
             general guidelines of what to say.
           </p>
         </div>
-        {/* <h3 className="caraousal_heading">
-          The images below represent the game concept.
-        </h3> */}
+      </div>
+      <div className="footer">
+        <div className="footer_icons">
+          <img className="footer_icon" src={atIcon} alt="atIcon" />
+          <img className="footer_icon" src={twitter} alt="twitter" />
+          <img className="footer_icon" src={github} alt="github" />
+          <img className="footer_icon" src={insta} alt="insta" />
+        </div>
       </div>
     </div>
   );

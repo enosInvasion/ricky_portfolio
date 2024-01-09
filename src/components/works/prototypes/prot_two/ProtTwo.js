@@ -12,6 +12,10 @@ import ptwo6 from "../../../../images/prototype/Prototype/2_6.png";
 import ptwo7 from "../../../../images/prototype/Prototype/2_7.png";
 import ptwo8 from "../../../../images/prototype/Prototype/2_8.png";
 import ptwo9 from "../../../../images/prototype/Prototype/2_9.png";
+import atIcon from "../../../../images/at_icon.svg";
+import twitter from "../../../../images/t_icon.svg";
+import github from "../../../../images/git_icon.svg";
+import insta from "../../../../images/instagram.svg";
 const ProtTwo = () => {
   const location = useLocation();
 
@@ -225,6 +229,14 @@ const ProtTwo = () => {
             are able to be pressed if two switches on the map are turned on.
           </p>
           <Caraousal props={centerLowerImgList} />
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footer_icons">
+          <img className="footer_icon" src={atIcon} alt="atIcon" />
+          <img className="footer_icon" src={twitter} alt="twitter" />
+          <img className="footer_icon" src={github} alt="github" />
+          <img className="footer_icon" src={insta} alt="insta" />
         </div>
       </div>
     </div>

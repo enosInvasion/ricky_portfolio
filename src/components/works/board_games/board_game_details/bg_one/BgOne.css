@@ -147,3 +147,9 @@
 .star_moves_onto_container p {
     opacity: 0.6;
 }
+
+@media only screen and (min-width : 1920px) {
+    .main_section {
+        padding: 3% 15%;
+    }
+}

@@ -6,6 +6,10 @@ import Caraousal from "../../../project_details/caraousal/Caraousal";
 import mShapesOne from "../../../../../images/bottom_carousal/MediaShapes_1.png";
 import mShapesTwo from "../../../../../images/bottom_carousal/MediaShapes_2.jpg";
 import mShapesThree from "../../../../../images/bottom_carousal/MediaShapes_3.jpg";
+import atIcon from "../../../../../images/at_icon.svg";
+import twitter from "../../../../../images/t_icon.svg";
+import github from "../../../../../images/git_icon.svg";
+import insta from "../../../../../images/instagram.svg";
 
 const BgFive = () => {
   const location = useLocation();
@@ -21,7 +25,7 @@ const BgFive = () => {
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-        <Caraousal props={imgList} />
+        <Caraousal props={bottomImgList} />
         <div className="game_details_section">
           <h2>Game Details</h2>
           <p>
@@ -132,10 +136,14 @@ const BgFive = () => {
             number places their card first.
           </p>
         </div>
-        <h3 className="caraousal_heading">
-          The images below represent the game concept.
-        </h3>
-        <Caraousal props={bottomImgList} />
+      </div>
+      <div className="footer">
+        <div className="footer_icons">
+          <img className="footer_icon" src={atIcon} />
+          <img className="footer_icon" src={twitter} />
+          <img className="footer_icon" src={github} />
+          <img className="footer_icon" src={insta} />
+        </div>
       </div>
     </div>
   );

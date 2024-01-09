@@ -4,6 +4,10 @@ import { useLocation } from "react-router-dom";
 import Navbar from "../../../navbar/Navbar";
 import Caraousal from "../../project_details/caraousal/Caraousal";
 import pfour1 from "../../../../images/prototype/Prototype/4_1.png";
+import atIcon from "../../../../images/at_icon.svg";
+import twitter from "../../../../images/t_icon.svg";
+import github from "../../../../images/git_icon.svg";
+import insta from "../../../../images/instagram.svg";
 
 const ProtFour = () => {
   const location = useLocation();
@@ -152,6 +156,14 @@ const ProtFour = () => {
             back to the fire but he can not tolerate more heat and smoke and he
             faints and slowly goes to die.
           </p>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footer_icons">
+          <img className="footer_icon" src={atIcon} alt="atIcon" />
+          <img className="footer_icon" src={twitter} alt="twitter" />
+          <img className="footer_icon" src={github} alt="github" />
+          <img className="footer_icon" src={insta} alt="insta" />
         </div>
       </div>
     </div>
