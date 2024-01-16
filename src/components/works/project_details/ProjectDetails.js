@@ -3,8 +3,8 @@ import "./ProjectDetails.css";
 import Caraousal from "./caraousal/Caraousal";
 import { useLocation } from "react-router-dom";
 import Navbar from "../../navbar/Navbar";
-import VrImage from "../../../images/vr_projects.jpg";
-import DevelopmentImage from "../../../images/development.jpg";
+// import VrImage from "../../../images/vr_projects.jpg";
+// import DevelopmentImage from "../../../images/development.jpg";
 import atIcon from "../../../images/at_icon.svg";
 import twitter from "../../../images/t_icon.svg";
 import github from "../../../images/git_icon.svg";
@@ -73,20 +73,20 @@ const ProjectDetails = (details) => {
                 </ul>
               </div>
               <div className="intial_setps_image_section">
-                <img
+                {/* <img
                   className="intial_setps_image setps_image"
                   src={VrImage}
                   alt="blue print"
-                />
+                /> */}
               </div>
             </div>
             <div className="final_setps">
               <div className="final_setps_image">
-                <img
+                {/* <img
                   className="setps_image"
                   src={DevelopmentImage}
                   alt="blue print"
-                />
+                /> */}
               </div>
               <div className="final_setps_text">
                 <ul className="steps_text">

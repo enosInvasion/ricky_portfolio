@@ -1,7 +1,6 @@
-import DevelopmentProjectsImage from "../images/development.jpg";
-import BoardGamesImage from "../images/board_games.jpg";
-import VRProjectsImage from "../images/vr_projects.jpg";
-import DesignProjectsImage from "../images/design_projects.jpg";
+// import BoardGamesImage from "../images/board_games.jpg";
+// // import VRProjectsImage from "../images/vr_projects.jpg";
+// import DesignProjectsImage from "../images/design_projects.jpg";
 import des_1 from "../images/design/design_1.png";
 import des_2 from "../images/design/design_2.png";
 import des_3 from "../images/design/design_3.png";
@@ -47,7 +46,7 @@ const main_card_object_list = [
     project_type: "Development",
     project_description:
       "AMAZE is an enthralling and thought-provoking video game that immerses players in the shoes of an archaeology student on an intriguing quest.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "dev_1",
@@ -58,7 +57,7 @@ const main_card_object_list = [
     project_type: "Development",
     project_description:
       "My main objective is to create a captivating first-person shooting game to showcase my expertise in game development.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "prot_3",
@@ -69,7 +68,7 @@ const main_card_object_list = [
     project_type: "Prototype",
     project_description:
       "The theme of the challenge that led to the creation of this title is Haunted House. Sincerely, not every member of the team was aware of this",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "board2",
@@ -80,7 +79,7 @@ const main_card_object_list = [
     project_type: "Board Games",
     project_description:
       "Our instructions were to create a new game using ‘Sissy Fight’ as a starting point, with a requirement that we maintain the aspect of simultaneously revealed action cards for our final game. ",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "vr_1",
@@ -91,7 +90,7 @@ const main_card_object_list = [
     project_type: "Virtual Reality",
     project_description: `A tracheostomy procedure was necessary for Patrick, 57, because of an infection in his epiglottis. It is your duty as a nurse to carry out post-operative tracheostomy care procedures. 
     `,
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "vr_2",
@@ -102,7 +101,7 @@ const main_card_object_list = [
     project_type: "Virtual Reality",
     project_description:
       "This 42-year-old corporate executive is Mike, and he is undergoing an outpatient surgical procedure. The outpatient surgery nurse is required to conduct a head-to-toe assessment prior to the procedure.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
 ];
 
@@ -116,7 +115,7 @@ let design_card_object_list = [
     project_type: "Low Poly Modeling",
     project_description:
       "A blender-textured, 3D low-poly chess set asset for games of chess that was created using cylinder extrusion.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_2",
@@ -127,7 +126,7 @@ let design_card_object_list = [
     project_type: "Interior Design",
     project_description:
       "Blender-created modern church interior using fundamental architectural principles. During texturing, a UV map is implemented.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_3",
@@ -138,7 +137,7 @@ let design_card_object_list = [
     project_type: "Object Modeling",
     project_description:
       "On a sunny day, a furry rabbit can be seen in the grass. Fur on the rabbit were created in the blender using skin texturing.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_4",
@@ -149,7 +148,7 @@ let design_card_object_list = [
     project_type: "Sculpturing",
     project_description:
       "Goliath enemy model at a low level. This character was created by applying Blender's 3D sculpting principles.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_5",
@@ -160,7 +159,7 @@ let design_card_object_list = [
     project_type: "Sculpturing",
     project_description:
       "Favorite superhero helmet created in a blender using only one plane for extrusion.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_6",
@@ -171,7 +170,7 @@ let design_card_object_list = [
     project_type: "Enviornment Design",
     project_description:
       "A portion of medieval ruin sites close to a body of water. For the wall's texturing, a custom material was made in Blender using various maps",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -182,7 +181,7 @@ let design_card_object_list = [
     project_type: "Enviornment Design",
     project_description:
       "In the middle of nowhere, a farmhouse. To texture the house and the leaves, tree and specially made materials were used.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -193,7 +192,7 @@ let design_card_object_list = [
     project_type: "Enviornment Design",
     project_description:
       "Water surrounds a medieval castle to keep enemies away. In blender, high poly models are made and textured.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -204,7 +203,7 @@ let design_card_object_list = [
     project_type: "Stimulation Design",
     project_description:
       "Instead of a light saber, it is a flame saber. Blender flame simulation was used to ignite the saber's cylinder.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -215,7 +214,7 @@ let design_card_object_list = [
     project_type: "Sci-fi Design",
     project_description:
       "A cube was transformed into a sci-fi crate using boolean operations and beveling. To improve the model's lighting, post-processing in Blender and Photoshop is used.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -226,7 +225,7 @@ let design_card_object_list = [
     project_type: "Sci-fi Design",
     project_description:
       "A futuristic gun built using a regular gun as a base. Using Substance Painter for texturing and Blender for modeling.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -237,7 +236,7 @@ let design_card_object_list = [
     project_type: "Sci-fi Design",
     project_description:
       "An armored robot by the name of Oxi-Bot was created in Blender, with textures added in Substance Painter and effects added in Photoshop.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -248,7 +247,7 @@ let design_card_object_list = [
     project_type: "Vehicle Design",
     project_description:
       "A military truck BMR was created in Blender using four reference images and the vehicle model principle. Each component was then UV-wrapped and textured in Substance Painter.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -259,7 +258,7 @@ let design_card_object_list = [
     project_type: "Vehicle Design",
     project_description:
       "A Substance Painter-textured, futuristic military tank created in Blender. Made without utilizing any reference images.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -270,7 +269,7 @@ let design_card_object_list = [
     project_type: "Sci-fi Design",
     project_description:
       "With the aid of boolean cutting and beveling, a modular sci-fi spaceship was created out of three large cubes.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -281,7 +280,7 @@ let design_card_object_list = [
     project_type: "Sci-fi Design",
     project_description:
       "The Scorpion is an advanced, futuristic sniper rifle. Beveling and 3D boolean cutting were used to define the gun. created in Blender.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "design_7",
@@ -292,7 +291,7 @@ let design_card_object_list = [
     project_type: "Vehicle Design",
     project_description:
       "Using the principles of vehicle modeling, an old Batmobile model was created in Blender. UV maps with seams were unwrapped and then texturized in Blender.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
 ];
 
@@ -306,7 +305,7 @@ const development_card_object_list = [
     project_type: "Development",
     project_description:
       "My main objective is to create a captivating first-person shooting game to showcase my expertise in game development.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "dev_2",
@@ -317,7 +316,7 @@ const development_card_object_list = [
     project_type: "Development",
     project_description:
       "My objective for my second game in my indie game development journey was to pay homage to the classic arcade game Pac-Man while infusing it with a fresh and modern twist.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "dev_3",
@@ -328,7 +327,7 @@ const development_card_object_list = [
     project_type: "Development",
     project_description:
       "AMAZE is an enthralling and thought-provoking video game that immerses players in the shoes of an archaeology student on an intriguing quest.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
 ];
 
@@ -342,7 +341,7 @@ const prototype_card_object_list = [
     project_type: "Prototype",
     project_description:
       "The game is played over Zoom via voice controls and is set in the G41 room at campus.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "prot_2",
@@ -353,7 +352,7 @@ const prototype_card_object_list = [
     project_type: "Prototype",
     project_description:
       "The Mur’s journey concept came during our brainstorming section. We decided to create a game where two players are lost in time after messing with an artefact in a museum.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "prot_3",
@@ -364,7 +363,7 @@ const prototype_card_object_list = [
     project_type: "Prototype",
     project_description:
       "The theme of the challenge that led to the creation of this title is Haunted House. Sincerely, not every member of the team was aware of this",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "prot_4",
@@ -376,7 +375,7 @@ const prototype_card_object_list = [
     project_description: `Fredrick the FireFighter is a game in the puzzle-survival genre. The player takes control
       of “Fredrick”, an experienced firefighter with a tragic past, specialized in extracting
       civilians from flaming buildings.`,
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
 ];
 
@@ -390,7 +389,7 @@ const board_games_card_object_list = [
     project_type: "Baord Games",
     project_description:
       "The game is inspired by politics and how, in a democratic system, agents can influence the state of affairs in their environment through voting and negotiation.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "board2",
@@ -401,7 +400,7 @@ const board_games_card_object_list = [
     project_type: "Board Games",
     project_description:
       "Our instructions were to create a new game using ‘Sissy Fight’ as a starting point, with a requirement that we maintain the aspect of simultaneously revealed action cards for our final game. ",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "board3",
@@ -412,7 +411,7 @@ const board_games_card_object_list = [
     project_type: "Board Games",
     project_description:
       "The Colrush game is a 3 player game; 2 players play as colonizers, and 1 player plays as the Governor.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "board4",
@@ -423,7 +422,7 @@ const board_games_card_object_list = [
     project_type: "Board Games",
     project_description:
       "My teammates and I were given the immediate task of creating a game that addressed either racism or colonialism.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "board5",
@@ -434,7 +433,7 @@ const board_games_card_object_list = [
     project_type: "Board Games",
     project_description:
       "The seemingly unfair pattern of representation in media, as observed by Katha Pollitt1 named the Smurfette principle, defined as the practice in media, such as film and television, to include only one woman in an otherwise entirely male ensemble",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "board6",
@@ -445,7 +444,7 @@ const board_games_card_object_list = [
     project_type: "Board Games",
     project_description:
       "We decided to tackle the theme of ‘appreciation’ in our game. We interpret this as appreciation connected to the story of The Hunter and The Fox Woman, and the lack of appreciation for the things we have, as well as the sorrow caused by the loss of those things. ",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
 ];
 
@@ -459,7 +458,7 @@ const vr_card_object_list = [
     project_type: "Virtual Reality",
     project_description: `A tracheostomy procedure was necessary for Patrick, 57, because of an infection in his epiglottis. It is your duty as a nurse to carry out post-operative tracheostomy care procedures. 
     The tracheostomy procedure is a major surgical procedure that entails a significant risk of complications.`,
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "vr_2",
@@ -470,7 +469,7 @@ const vr_card_object_list = [
     project_type: "Virtual Reality",
     project_description:
       "This 42-year-old corporate executive is Mike, and he is undergoing an outpatient surgical procedure. The outpatient surgery nurse is required to conduct a head-to-toe assessment prior to the procedure.",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "vr_3",
@@ -481,7 +480,7 @@ const vr_card_object_list = [
     project_type: "Virtual Reality",
     project_description:
       "Postpartum hemorrhage, also known as PPH, is a serious vaginal bleeding that can become life-threatening if it is not recognized and treated promptly after childbirth",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
   {
     id: "vr_4",
@@ -492,7 +491,7 @@ const vr_card_object_list = [
     project_type: "Virtual Reality",
     project_description:
       "Jacob is a male patient who is 52 years old. He is admitted for an infection and has antibiotics ordered. There have been multiple attempts at placing IV access, but to no avail. An order for the implantation of a central venous catheter has been written by the attending physician",
-    carousal_imageList: [VRProjectsImage, DesignProjectsImage, BoardGamesImage],
+    carousal_imageList: [],
   },
 ];
 

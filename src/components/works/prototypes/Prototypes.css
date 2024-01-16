@@ -30,8 +30,8 @@
     line-height: 24px;
 }
 
-@media only screen and (min-width : 1920px) {
+@media only screen and (min-width : 2560px) {
     .prototype_container {
-        padding: 3% 15%;
+        padding: 2% 15%;
     }
 }

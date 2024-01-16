@@ -3,16 +3,29 @@ import "./VrOne.css";
 import { useLocation } from "react-router-dom";
 import Navbar from "../../../navbar/Navbar";
 import Caraousal from "../../project_details/caraousal/Caraousal";
-
+import vr_one_img_one from "../../../../images/trachiostomy/TC-2.jpg";
+import vr_one_img_two from "../../../../images/trachiostomy/TC-3.jpg";
+import vr_one_img_three from "../../../../images/trachiostomy/TC-4.jpg";
+import vr_one_img_four from "../../../../images/trachiostomy/TC-5.jpg";
+import vr_one_img_five from "../../../../images/trachiostomy/TC-6.jpg";
+import vr_one_img_six from "../../../../images/trachiostomy/TC-7.jpg";
 const VrOne = () => {
   const location = useLocation();
-  const imgList = [];
+  const imgList = [
+    vr_one_img_one,
+    vr_one_img_two,
+    vr_one_img_three,
+    vr_one_img_four,
+    vr_one_img_five,
+    vr_one_img_six,
+  ];
 
   return (
     <div className="vrone_container">
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
+        <Caraousal props={imgList} />
         <a href="https://medvr.education/solution/tracheostomy-care/">
           https://medvr.education/solution/tracheostomy-care/
         </a>

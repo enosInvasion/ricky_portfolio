@@ -3,15 +3,27 @@ import Navbar from "../../../navbar/Navbar";
 import Caraousal from "../../project_details/caraousal/Caraousal";
 import { useLocation } from "react-router-dom";
 import "./VrFour.css";
+import vr_four_img_one from "../../../../images/cvc/CVC-1.jpg";
+import vr_four_img_two from "../../../../images/cvc/CVC-2.jpg";
+import vr_four_img_three from "../../../../images/cvc/CVC-3.jpg";
+import vr_four_img_four from "../../../../images/cvc/CVC-4.jpg";
+import vr_four_img_five from "../../../../images/cvc/CVC-L1.jpg";
 
 const VrFour = () => {
   const location = useLocation();
-  const imgList = [];
+  const imgList = [
+    vr_four_img_one,
+    vr_four_img_two,
+    vr_four_img_three,
+    vr_four_img_four,
+    vr_four_img_five,
+  ];
   return (
     <div className="vr_four_container">
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
+        <Caraousal props={imgList} />
         <a href="https://medvr.education/solution/cvc-insertion-in-vr/">
           https://medvr.education/solution/cvc-insertion-in-vr/
         </a>

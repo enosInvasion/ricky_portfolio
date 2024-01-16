@@ -3,16 +3,28 @@ import { useLocation } from "react-router-dom";
 import Navbar from "../../../navbar/Navbar";
 import Caraousal from "../../project_details/caraousal/Caraousal";
 import "./VrTwo.css";
+import vr_two_img_one from "../../../../images/head_to_toe/HTT-1.jpg";
+import vr_two_img_two from "../../../../images/head_to_toe/HTT-2.jpg";
+import vr_two_img_three from "../../../../images/head_to_toe/HTT-3.jpg";
+import vr_two_img_four from "../../../../images/head_to_toe/HTT-4.jpg";
+import vr_two_img_five from "../../../../images/head_to_toe/HTT-L1.jpg";
 
 const VrTwo = () => {
   const location = useLocation();
-  const imgList = [];
+  const imgList = [
+    vr_two_img_one,
+    vr_two_img_two,
+    vr_two_img_three,
+    vr_two_img_four,
+    vr_two_img_five,
+  ];
 
   return (
     <div className="vrtwo_container">
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
+        <Caraousal props={imgList} />
         <a href="https://medvr.education/solution/head-to-toe-assessment/">
           https://medvr.education/solution/head-to-toe-assessment/
         </a>

@@ -11,12 +11,13 @@
     flex-direction: row;
     justify-content: space-between;
     width: auto;
+    cursor: pointer;
 }
 
 .text_section {
     font-family: 'Roboto', monospace;
-   width: 700px;
-   display: flex;
+    width: 700px;
+    display: flex;
     flex-direction: column;
     row-gap: 10px;
     background-color: #222828;
@@ -28,6 +29,7 @@
 .work_image {
     height: 289px;
     width: 500px;
+    border-radius: 5px;
 }
 
 .card_heading {
@@ -48,13 +50,41 @@
 @media only screen and (min-width : 1920px) {
     .work_container {
         justify-content: space-between;
-        padding: 2% 15%;
     }
     .work_image {
         height: 310px;
-        width: 900px;
+        width: 690px;
+    }
+    .text_section {
+        width: 820px;
+    }
+}
+
+@media only screen and (min-width : 2100px) {
+    .work_container {
+        justify-content: space-between;
+        padding: 2% 15%;
+    }
+    .work_image {
+        height: 295px;
+        width: 630px;
     }
     .work_card {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width : 2560px) {
+    .work_container {
+        justify-content: space-between;
+        padding: 2% 15%;
+    }
+    .work_image {
+        height: 317.5px;
+        width: 770px;
+    }
+    .text_section {
+        
+        width: 860px;
     }
 }

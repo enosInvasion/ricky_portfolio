@@ -3,15 +3,19 @@ import Navbar from "../../../navbar/Navbar";
 import Caraousal from "../../project_details/caraousal/Caraousal";
 import { useLocation } from "react-router-dom";
 import "./VrThree.css";
+import vr_three_img_one from "../../../../images/post_patrum/PPH-1.jpg";
+import vr_three_img_two from "../../../../images/post_patrum/PPH-2.jpg";
+import vr_three_img_three from "../../../../images/post_patrum/PPH-main.jpg";
 
 const VrThree = () => {
   const location = useLocation();
-  const imgList = [];
+  const imgList = [vr_three_img_one, vr_three_img_two, vr_three_img_three];
   return (
     <div className="vrthree_container">
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
+        <Caraousal props={imgList} />
         <a href="https://medvr.education/solution/postpartum-hemorrhage/">
           https://medvr.education/solution/postpartum-hemorrhage/
         </a>
