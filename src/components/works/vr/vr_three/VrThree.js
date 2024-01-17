@@ -3,9 +3,9 @@ import Navbar from "../../../navbar/Navbar";
 import Caraousal from "../../project_details/caraousal/Caraousal";
 import { useLocation } from "react-router-dom";
 import "./VrThree.css";
-import vr_three_img_one from "../../../../images/post_patrum/PPH-1.jpg";
-import vr_three_img_two from "../../../../images/post_patrum/PPH-2.jpg";
-import vr_three_img_three from "../../../../images/post_patrum/PPH-main.jpg";
+import vr_three_img_one from "../../../../images/post_partum/PPH-1.jpg";
+import vr_three_img_two from "../../../../images/post_partum/PPH-2.jpg";
+import vr_three_img_three from "../../../../images/post_partum/PPH-main.jpg";
 
 const VrThree = () => {
   const location = useLocation();
