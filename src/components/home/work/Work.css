@@ -47,6 +47,17 @@
     letter-spacing: normal;
 }
 
+@media only screen and (min-width : 1220px) {
+    .work_image {
+        height: 285px;
+        width: 450px;
+    }
+    .work_card {
+        margin-top: -10px;
+    }
+}
+
+
 @media only screen and (min-width : 1920px) {
     .work_container {
         justify-content: space-between;
