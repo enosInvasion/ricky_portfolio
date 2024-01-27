@@ -4,10 +4,8 @@ import Navbar from "../../navbar/Navbar";
 import { development_card_object_list } from "../../../componet_objects/CardObjects";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import atIcon from "../../../images/at_icon.svg";
-import twitter from "../../../images/t_icon.svg";
-import github from "../../../images/git_icon.svg";
-import insta from "../../../images/instagram.svg";
+
+import Footer from "../../footer/Footer";
 const Development = () => {
   const [id, setId] = useState("");
   const navigate = useNavigate();
@@ -19,8 +17,12 @@ const Development = () => {
         <div className="dev_heading_section">
           <h2 className="dev_section_heading_text">Development Projects</h2>
           <p className="dev_section_description_text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Eius, inventore adipisicing elit.
+            Welcome to our showcase of innovative development projects that
+            embody our commitment to excellence and technological prowess. Each
+            project represents a journey of creativity, problem-solving, and
+            cutting-edge solutions. Explore the diverse range of initiatives
+            that define our dedication to pushing the boundaries of what is
+            possible in the world of development.
           </p>
         </div>
         <div className="works_card_section">
@@ -70,14 +72,7 @@ const Development = () => {
           </div>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

@@ -4,10 +4,8 @@ import { useState } from "react";
 import Navbar from "../../navbar/Navbar";
 import { board_games_card_object_list } from "../../../componet_objects/CardObjects";
 import { useNavigate } from "react-router-dom";
-import atIcon from "../../../images/at_icon.svg";
-import twitter from "../../../images/t_icon.svg";
-import github from "../../../images/git_icon.svg";
-import insta from "../../../images/instagram.svg";
+
+import Footer from "../../footer/Footer";
 
 const BoardGames = () => {
   const [id, setId] = useState("");
@@ -22,8 +20,10 @@ const BoardGames = () => {
             Board Game Projects
           </h2>
           <p className="board_games_section_description_text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Eius, inventore adipisicing elit.
+            Step into the world of board games where strategy, creativity, and
+            innovation come together. Explore my collection of board game
+            projects that showcase a passion for game design and a commitment to
+            creating memorable tabletop experiences.
           </p>
         </div>
         <div className="works_card_section">
@@ -72,14 +72,7 @@ const BoardGames = () => {
           </div>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

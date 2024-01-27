@@ -80,11 +80,12 @@ const Projects = () => {
           Every great game begins with an even better story
         </div>
         <div className="intro_story">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
-          doloremque sequi deleniti nesciunt, totam eveniet possimus perferendis
-          similique minus aliquid qui delectus incidunt blanditiis aperiam
-          laborum dolorum magnam perspiciatis! Quis officia nam et accusamus
-          repellat. Animi omnis nemo ex velit.
+          Meet this game developer - a tech wizard with a degree in computer
+          science and engineering. With two years of game-making experience, he
+          turns ideas into awesome virtual adventures. Imagine a world where
+          codes and pixels come together to create fun and exciting games. Get
+          ready to peek behind the scenes and discover the magic crafted by our
+          game developer extraordinaire!
         </div>
       </div>
     </div>

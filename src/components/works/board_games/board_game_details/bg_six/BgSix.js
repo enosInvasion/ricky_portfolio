@@ -3,17 +3,10 @@ import "./BgSix.css";
 import Navbar from "../../../../navbar/Navbar";
 import Caraousal from "../../../project_details/caraousal/Caraousal";
 import { useLocation } from "react-router-dom";
-import atIcon from "../../../../../images/at_icon.svg";
-import twitter from "../../../../../images/t_icon.svg";
-import github from "../../../../../images/git_icon.svg";
-import insta from "../../../../../images/instagram.svg";
+import Footer from "../../../../footer/Footer";
 
 const BgSix = () => {
   const location = useLocation();
-  var imgList = [];
-  location.state.object.carousal_imageList.map((img) => {
-    imgList.push(img);
-  });
 
   // var bottomImgList = [mShapesOne, mShapesTwo, mShapesThree];
   return (
@@ -21,7 +14,13 @@ const BgSix = () => {
       <Navbar />
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
-
+        <div className="role_team_section">
+          <h3>Role: Game Designer</h3>
+          <h3>
+            Team Members: Oluwafemi Adewunmi, Connor Marshall, Lukas Wolf, and
+            Samantha Graham'
+          </h3>
+        </div>
         <div className="human_exp_container">
           <h3>Human Experience Theme</h3>
           <p>
@@ -155,14 +154,7 @@ const BgSix = () => {
           </div>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

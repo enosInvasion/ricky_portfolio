@@ -6,18 +6,10 @@ import Caraousal from "../../../project_details/caraousal/Caraousal";
 import colrushOne from "../../../../../images/bottom_carousal/Colrush_1.jpg";
 import colrushTwo from "../../../../../images/bottom_carousal/Colrush_2.jpg";
 import colrushThree from "../../../../../images/bottom_carousal/Colrush_3.jpg";
-import atIcon from "../../../../../images/at_icon.svg";
-import twitter from "../../../../../images/t_icon.svg";
-import github from "../../../../../images/git_icon.svg";
-import insta from "../../../../../images/instagram.svg";
+import Footer from "../../../../footer/Footer";
 
 const BgThree = () => {
   const location = useLocation();
-
-  var imgList = [];
-  location.state.object.carousal_imageList.map((img) => {
-    imgList.push(img);
-  });
 
   var bottomImgList = [colrushOne, colrushTwo, colrushThree];
 
@@ -27,6 +19,13 @@ const BgThree = () => {
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
         <Caraousal props={bottomImgList} />
+        <div className="role_team_section">
+          <h3>Role :Game Designer</h3>
+          <h3>
+            Team Members : Elena Kappler, Xinchen Gong, Christian Matte, and
+            Haoran Feng
+          </h3>
+        </div>
         <div className="bg_three_para">
           <h2>Game Details</h2>
           <p>
@@ -68,14 +67,7 @@ const BgThree = () => {
           </p>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

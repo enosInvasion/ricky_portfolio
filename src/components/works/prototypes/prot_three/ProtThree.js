@@ -26,18 +26,10 @@ import pthree20 from "../../../../images/prototype/Prototype/3_20.png";
 import pthree21 from "../../../../images/prototype/Prototype/3_21.png";
 import pthree22 from "../../../../images/prototype/Prototype/3_22.png";
 import pthree23 from "../../../../images/prototype/Prototype/3_23.png";
-import atIcon from "../../../../images/at_icon.svg";
-import twitter from "../../../../images/t_icon.svg";
-import github from "../../../../images/git_icon.svg";
-import insta from "../../../../images/instagram.svg";
+import Footer from "../../../footer/Footer";
 
 const ProtThree = () => {
   const location = useLocation();
-
-  var imgList = [];
-  location.state.object.carousal_imageList.map((img) => {
-    imgList.push(img);
-  });
 
   var centerImgList = [pthree7, pthree8, pthree9, pthree10, pthree11];
   var centerBottomImgList = [pthree12, pthree13, pthree14, pthree15, pthree16];
@@ -52,6 +44,7 @@ const ProtThree = () => {
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
         <Caraousal props={centerImgList} />
+        <h3>Role : {location.state.object.role}</h3>
         <div className="prot_three_c_one">
           <h3>Introduction</h3>
           <p>
@@ -289,14 +282,7 @@ const ProtThree = () => {
         </div>
         <div className="prot_three_c_nineteen"></div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

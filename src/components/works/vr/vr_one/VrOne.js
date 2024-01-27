@@ -9,6 +9,7 @@ import vr_one_img_three from "../../../../images/trachiostomy/TC-4.jpg";
 import vr_one_img_four from "../../../../images/trachiostomy/TC-5.jpg";
 import vr_one_img_five from "../../../../images/trachiostomy/TC-6.jpg";
 import vr_one_img_six from "../../../../images/trachiostomy/TC-7.jpg";
+import Footer from "../../../footer/Footer";
 const VrOne = () => {
   const location = useLocation();
   const imgList = [
@@ -29,6 +30,7 @@ const VrOne = () => {
         <a href="https://medvr.education/solution/tracheostomy-care/">
           https://medvr.education/solution/tracheostomy-care/
         </a>
+        <h3>Role : {location.state.object.role}</h3>
         <div className="vrone_c_one">
           <h3>About : </h3>
           <p>
@@ -449,6 +451,7 @@ const VrOne = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -8,6 +8,7 @@ import vr_four_img_two from "../../../../images/cvc/CVC-2.jpg";
 import vr_four_img_three from "../../../../images/cvc/CVC-3.jpg";
 import vr_four_img_four from "../../../../images/cvc/CVC-4.jpg";
 import vr_four_img_five from "../../../../images/cvc/CVC-L1.jpg";
+import Footer from "../../../footer/Footer";
 
 const VrFour = () => {
   const location = useLocation();
@@ -27,6 +28,7 @@ const VrFour = () => {
         <a href="https://medvr.education/solution/cvc-insertion-in-vr/">
           https://medvr.education/solution/cvc-insertion-in-vr/
         </a>
+        <h3>Role : {location.state.object.role}</h3>
         <div className="vr_four_c_one">
           <h3>About : </h3>
           <p>
@@ -290,6 +292,7 @@ const VrFour = () => {
           </ol>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

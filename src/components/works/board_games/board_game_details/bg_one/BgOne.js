@@ -3,21 +3,12 @@ import React from "react";
 import Caraousal from "../../../project_details/caraousal/Caraousal";
 import { useLocation } from "react-router-dom";
 import Navbar from "../../../../navbar/Navbar";
-import atIcon from "../../../../../images/at_icon.svg";
-import twitter from "../../../../../images/t_icon.svg";
-import github from "../../../../../images/git_icon.svg";
-import insta from "../../../../../images/instagram.svg";
+
 import bgone from "../../../../../images/bg_one.png";
+import Footer from "../../../../footer/Footer";
 
 const BgOne = (details) => {
   const location = useLocation();
-
-  var imgList = [];
-  location.state.object.carousal_imageList.map((img) => {
-    imgList.push(img);
-  });
-  // console.log(location.state.object.game_description);
-  // console.log(location.state.object.title);
 
   return (
     <div className="bg_one_details_container">
@@ -25,7 +16,13 @@ const BgOne = (details) => {
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
         {/* <Caraousal props={imgList} /> */}
-
+        <div className="role_team_section">
+          <h3>Role : Game Designer</h3>
+          <h3>
+            Team Members : Xinchen Gong, Haoran Feng, Nicolas Hammar, and
+            Christos Yonas
+          </h3>
+        </div>
         <div className="story_telling_container">
           <h3 className="story_telling_heading">Story Telling</h3>
           <p className="sotry_telling_content">
@@ -143,14 +140,7 @@ const BgOne = (details) => {
           </div>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

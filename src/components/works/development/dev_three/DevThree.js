@@ -39,10 +39,7 @@ import puzThree from "../../../../images/dev_three/Level/3L_P_3.png";
 import puzFour from "../../../../images/dev_three/Level/3L_P_4.png";
 import puzFive from "../../../../images/dev_three/Level/3L_P_5.png";
 import puzSix from "../../../../images/dev_three/Level/3L_P_6.png";
-import atIcon from "../../../../images/at_icon.svg";
-import twitter from "../../../../images/t_icon.svg";
-import github from "../../../../images/git_icon.svg";
-import insta from "../../../../images/instagram.svg";
+import Footer from "../../../footer/Footer";
 
 const DevThree = () => {
   const location = useLocation();
@@ -87,6 +84,10 @@ const DevThree = () => {
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
         <Caraousal props={levelImgList} />
+        <div>
+          <h3>Role : {location.state.object.role}</h3>
+          <h3>Team Members : {location.state.object.team_members}</h3>
+        </div>
         <div className="dev_three_c_one">
           <h2>Objective and Concept : </h2>
           <p>
@@ -602,14 +603,7 @@ const DevThree = () => {
           </p>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

@@ -168,6 +168,38 @@
     opacity: 0.7;
     line-height: 20px;
 }
+@media only screen and (max-width : 1080px) {
+.works_nav_button {
+    width: 200px;
+    height: 200px;
+}
+.works_button_title {
+    font-size: 14px;
+}
+.works_main_container .works_card_section {
+    margin-top: -50px;
+}
+.works_image_container {
+    width: 120px;
+}
+.works_image {
+    object-fit: contain;
+}
+.w_card_image_section{
+    width: max-content;
+}
+.works_card {
+    width: 400px;
+}
+.w_card_image_section img {
+    width: 400px;
+    
+}
+.w_card_project_description {
+    width: 400px;
+}
+
+}
 
 @media only screen and (min-width : 1220px) {
     .design_card_container {
@@ -176,8 +208,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        
-        
     }
     .works_card {
         width: max-content;

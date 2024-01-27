@@ -5,11 +5,7 @@ import { vr_card_object_list } from "../../../componet_objects/CardObjects";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import atIcon from "../../../images/at_icon.svg";
-import twitter from "../../../images/t_icon.svg";
-import github from "../../../images/git_icon.svg";
-import insta from "../../../images/instagram.svg";
-
+import Footer from "../../footer/Footer";
 const VRProjects = () => {
   const [id, setId] = useState("");
   const navigate = useNavigate();
@@ -20,8 +16,10 @@ const VRProjects = () => {
         <div className="vr_heading_section">
           <h2 className="vr_section_heading_text">VR Projects</h2>
           <p className="vr_section_description_text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Eius, inventore adipisicing elit.
+            Step into a realm of immersive experiences with my collection of
+            Virtual Reality (VR) projects. Explore the convergence of technology
+            and imagination through these virtual worlds designed to captivate
+            and transport users to new dimensions.
           </p>
         </div>
         <div className="works_card_section">
@@ -69,14 +67,7 @@ const VRProjects = () => {
           </div>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

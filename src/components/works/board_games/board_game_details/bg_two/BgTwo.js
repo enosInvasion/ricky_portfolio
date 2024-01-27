@@ -7,18 +7,10 @@ import sBussinessOne from "../../../../../images/bottom_carousal/Serious_Busines
 import sBussinessTwo from "../../../../../images/bottom_carousal/Serious_Business_2.png";
 import sBussinessThree from "../../../../../images/bottom_carousal/Serious_Business_3.png";
 import sBussinessFour from "../../../../../images/bottom_carousal/Serious_Business_4.png";
-import atIcon from "../../../../../images/at_icon.svg";
-import twitter from "../../../../../images/t_icon.svg";
-import github from "../../../../../images/git_icon.svg";
-import insta from "../../../../../images/instagram.svg";
+import Footer from "../../../../footer/Footer";
 
 const BgTwo = () => {
   const location = useLocation();
-
-  var imgList = [];
-  location.state.object.carousal_imageList.map((img) => {
-    imgList.push(img);
-  });
 
   const bottomImgList = [
     sBussinessOne,
@@ -33,6 +25,13 @@ const BgTwo = () => {
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
         <Caraousal props={bottomImgList} />
+        <div className="role_team_section">
+          <h3>Role :Game Designer</h3>
+          <h3>
+            Team Members : Elena Kappler, Xinchen Gong, Christian Matte, and
+            Haoran Feng
+          </h3>
+        </div>
         <div className="objectives_and_initial_concepts_container">
           <h3>Objectives and Initial Concepts</h3>
           <p>
@@ -365,19 +364,8 @@ const BgTwo = () => {
             </table>
           </div>
         </div>
-        <h3 className="caraousal_heading">
-          The images below represent the game concept.
-        </h3>
-        <Caraousal props={bottomImgList} />
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

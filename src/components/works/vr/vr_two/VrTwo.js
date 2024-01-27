@@ -8,6 +8,7 @@ import vr_two_img_two from "../../../../images/head_to_toe/HTT-2.jpg";
 import vr_two_img_three from "../../../../images/head_to_toe/HTT-3.jpg";
 import vr_two_img_four from "../../../../images/head_to_toe/HTT-4.jpg";
 import vr_two_img_five from "../../../../images/head_to_toe/HTT-L1.jpg";
+import Footer from "../../../footer/Footer";
 
 const VrTwo = () => {
   const location = useLocation();
@@ -28,6 +29,7 @@ const VrTwo = () => {
         <a href="https://medvr.education/solution/head-to-toe-assessment/">
           https://medvr.education/solution/head-to-toe-assessment/
         </a>
+        <h3>Role : {location.state.object.role}</h3>
         <div className="vrtwo_c_one">
           <h4>About : </h4>
           <p>
@@ -318,6 +320,7 @@ const VrTwo = () => {
           </ol>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -140,20 +140,3 @@
     opacity: 0.8;
     list-style: none;
 }
-.footer {
-    height: 100px;
-    background-color: #191d1d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer_icons {
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-}
-.footer_icon {
-    height: 22px;
-    width: 22px;
-    
-}

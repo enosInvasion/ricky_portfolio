@@ -4,18 +4,10 @@ import { useLocation } from "react-router-dom";
 import Caraousal from "../../project_details/caraousal/Caraousal";
 import Navbar from "../../../navbar/Navbar";
 import p1 from "../../../../images/prototype/Prototype/1_1.png";
-import atIcon from "../../../../images/at_icon.svg";
-import twitter from "../../../../images/t_icon.svg";
-import github from "../../../../images/git_icon.svg";
-import insta from "../../../../images/instagram.svg";
+import Footer from "../../../footer/Footer";
 
 const ProtOne = () => {
   const location = useLocation();
-
-  var imgList = [];
-  location.state.object.carousal_imageList.map((img) => {
-    imgList.push(img);
-  });
 
   var bottomImgList = [p1, p1, p1];
 
@@ -25,6 +17,7 @@ const ProtOne = () => {
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
         <Caraousal props={bottomImgList} />
+        <h3>Role : {location.state.object.role}</h3>
         <div className="prot_one_c_one">
           <h2>Game descriptions</h2>
           <p>
@@ -259,14 +252,7 @@ const ProtOne = () => {
           </p>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} alt="atIcon" />
-          <img className="footer_icon" src={twitter} alt="twitter" />
-          <img className="footer_icon" src={github} alt="github" />
-          <img className="footer_icon" src={insta} alt="insta" />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

@@ -7,6 +7,7 @@ import twitter from "../../../images/t_icon.svg";
 import github from "../../../images/git_icon.svg";
 import intsagram from "../../../images/in_icon.svg";
 import linkedin from "../../../images/link_icon.svg";
+import artstation from "../../../images/artstation.svg";
 
 const Contact = () => {
   return (
@@ -24,9 +25,7 @@ const Contact = () => {
                   Easiest way of starting a conversation
                 </p>
               </div>
-              <p className="contact_subtext">
-                `rickygouda9827.sweden@gmail.com
-              </p>
+              <p className="contact_subtext">rickygouda9827.sweden@gmail.com</p>
             </div>
           </div>
           <div className="contact_card c_two">
@@ -56,16 +55,40 @@ const Contact = () => {
         </div>
         <div className="s_media_icons">
           <button className="icon_buttons">
-            <img src={twitter} alt="twitter" className="contact_icons" />
+            <a
+              href="https://www.artstation.com/goudasahashransu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={artstation} alt="twitter" className="contact_icons" />
+            </a>
           </button>
           <button className="icon_buttons">
-            <img src={linkedin} alt="linkedin" className="contact_icons" />
+            <a
+              href="https://www.linkedin.com/in/sahashransu-gouda-a72488170/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={linkedin} alt="linkedin" className="contact_icons" />
+            </a>
           </button>
           <button className="icon_buttons">
-            <img src={intsagram} alt="instagram" className="contact_icons" />
+            <a
+              href=" https://www.instagram.com/thenoob_designer/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={intsagram} alt="instagram" className="contact_icons" />
+            </a>
           </button>
           <button className="icon_buttons">
-            <img src={github} atl="github" className="contact_icons" />
+            <a
+              href=" https://github.com/Sahashransu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={github} atl="github" className="contact_icons" />
+            </a>
           </button>
         </div>
       </div>
@@ -79,7 +102,10 @@ const Contact = () => {
             Tell me more about yourself and what you have got in your mind.
           </p>
         </div>
-        <form className="contact_form">
+        <form
+          className="contact_form"
+          action="mailto:rickygouda9827.sweden@gmail.com"
+        >
           <div className="user_name">
             <input
               type="text"

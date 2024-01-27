@@ -6,6 +6,7 @@ import "./VrThree.css";
 import vr_three_img_one from "../../../../images/post_partum/PPH-1.jpg";
 import vr_three_img_two from "../../../../images/post_partum/PPH-2.jpg";
 import vr_three_img_three from "../../../../images/post_partum/PPH-main.jpg";
+import Footer from "../../../footer/Footer";
 
 const VrThree = () => {
   const location = useLocation();
@@ -19,6 +20,7 @@ const VrThree = () => {
         <a href="https://medvr.education/solution/postpartum-hemorrhage/">
           https://medvr.education/solution/postpartum-hemorrhage/
         </a>
+        <h3>Role : {location.state.object.role}</h3>
         <div className="vrthree_c_one">
           <h3>About : </h3>
           <p>
@@ -303,6 +305,7 @@ const VrThree = () => {
           </ol>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

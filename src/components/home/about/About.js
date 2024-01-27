@@ -12,8 +12,8 @@ const About = () => {
             <h1>I'm Sahashransu Gouda.</h1>
           </div>
           <div className="about_section_description">
-            I build games that'll make your head spin. If you are
-            <br /> here then you are up for a treat.
+            Step into the extraordinary world of game development,
+            <br /> where creativity meets code and imagination meets innovation.
           </div>
         </div>
         <div className="chat_button_section">
@@ -28,7 +28,7 @@ const About = () => {
             </div>
           </div>
           <div className="stat_text_section ts_two">
-            <div className="number">6.9</div>
+            <div className="number">34</div>
             <div className="text">
               Projects complted
               <br /> On 3 Different domains

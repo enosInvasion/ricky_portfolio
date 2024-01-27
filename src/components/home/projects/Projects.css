@@ -119,6 +119,42 @@
 
 }
 
+@media only screen and (max-width : 720px) {
+
+}
+
+@media only screen and (max-width : 1080px) {
+    .projects_rightside {
+        width: 450px;
+    }
+    .projects_leftside {
+        width: 450px;
+        row-gap: 0px;
+    }
+    .feature_card {
+        height: 110px;
+        margin-bottom: 10px;
+    }
+    .card_text_section {
+        display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+    .heading_text {
+        font-size: 16px;
+    }
+    .heading_small_text {
+        line-height: 14px;
+    }
+    .intro_heading_section h3{
+        font-size: 18px;
+    }
+    .intro_story {
+        width: 450px;
+    }
+}
+
+
 @media only screen and (min-width : 2100px) {
     .projects_container {
         justify-content: space-between;

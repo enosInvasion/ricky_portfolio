@@ -2,7 +2,7 @@ import React from "react";
 import "./Main.css";
 import NavImage from "../../../images/prototype_bg_r.png";
 import devImage from "../../../images/dev_bg_r.png";
-import boardImage from "../../../images/board_bg_r_new.png";
+import boardImage from "../../../images/board_games_icon_new.png";
 import vrImage from "../../../images/vr_bg_r.png";
 import designImage from "../../../images/design_bg_r.png";
 import { useState } from "react";

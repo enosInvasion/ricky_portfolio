@@ -2,10 +2,8 @@ import React from "react";
 import "./Design.css";
 import Navbar from "../../navbar/Navbar";
 import { design_card_object_list } from "../../../componet_objects/CardObjects";
-import atIcon from "../../../images/at_icon.svg";
-import twitter from "../../../images/t_icon.svg";
-import github from "../../../images/git_icon.svg";
-import insta from "../../../images/instagram.svg";
+
+import Footer from "../../footer/Footer";
 
 const Design = () => {
   return (
@@ -15,8 +13,10 @@ const Design = () => {
         <div className="design_heading_section">
           <h2 className="design_section_heading_text">Design Projects</h2>
           <p className="design_section_description_text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Eius, inventore adipisicing elit.
+            Welcome to my Design Projects Portfolio, where creativity meets
+            functionality. Explore a curated collection of design endeavors that
+            showcase my passion for aesthetic innovation and user-centric
+            solutions.
           </p>
         </div>
         <div className="works_card_section">
@@ -54,14 +54,7 @@ const Design = () => {
           </div>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

@@ -34,10 +34,8 @@ import ui_12 from "../../../../images/dev_one/UI/1U_4.1.png";
 import ui_13 from "../../../../images/dev_one/UI/1U_4.png";
 import ui_14 from "../../../../images/dev_one/UI/1U_5.1.png";
 import ui_15 from "../../../../images/dev_one/UI/1U_5.png";
-import atIcon from "../../../../images/at_icon.svg";
-import twitter from "../../../../images/t_icon.svg";
-import github from "../../../../images/git_icon.svg";
-import insta from "../../../../images/instagram.svg";
+
+import Footer from "../../../footer/Footer";
 
 const DevOne = () => {
   const location = useLocation();
@@ -85,6 +83,10 @@ const DevOne = () => {
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
         <Caraousal props={levelImgList} />
+        <div>
+          <h3>Role : {location.state.object.role}</h3>
+          <h3>Team Members : {location.state.object.team_members}</h3>
+        </div>
         <div className="dev_one_c_one">
           <h2>Objective and Concept</h2>
           <p>
@@ -333,14 +335,7 @@ const DevOne = () => {
           </p>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

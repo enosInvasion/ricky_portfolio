@@ -6,18 +6,11 @@ import { useLocation } from "react-router-dom";
 import meetingOne from "../../../../../images/bottom_carousal/TheMeeting_1.jpg";
 import meetingTwo from "../../../../../images/bottom_carousal/TheMeeting_2.jpg";
 import meetingThree from "../../../../../images/bottom_carousal/TheMeeting_3.jpg";
-import atIcon from "../../../../../images/at_icon.svg";
-import twitter from "../../../../../images/t_icon.svg";
-import github from "../../../../../images/git_icon.svg";
-import insta from "../../../../../images/instagram.svg";
+
+import Footer from "../../../../footer/Footer";
 
 const BgFour = () => {
   const location = useLocation();
-
-  var imgList = [];
-  location.state.object.carousal_imageList.map((img) => {
-    imgList.push(img);
-  });
 
   var bottomImgList = [meetingOne, meetingTwo, meetingThree];
 
@@ -27,6 +20,10 @@ const BgFour = () => {
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
         <Caraousal props={bottomImgList} />
+        <div className="role_team_section">
+          <h3>Role: Game Designer</h3>
+          <h3>Team Members: Solo</h3>
+        </div>
         <div className="design_goal_section">
           <h3>Design Goal</h3>
           <p>
@@ -128,14 +125,7 @@ const BgFour = () => {
           </p>
         </div>
       </div>
-      <div className="footer">
-        <div className="footer_icons">
-          <img className="footer_icon" src={atIcon} />
-          <img className="footer_icon" src={twitter} />
-          <img className="footer_icon" src={github} />
-          <img className="footer_icon" src={insta} />
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };
