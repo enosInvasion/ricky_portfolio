@@ -15,6 +15,7 @@ const ProtFour = () => {
       <div className="main_section">
         <h1 className="game_title">{location.state.object.title}</h1>
         <h3>Role : {location.state.object.role}</h3>
+        <h3>Team: Solo</h3>
         <div className="prot_four_c_one">
           <h2>Game Narrative</h2>
           <p>

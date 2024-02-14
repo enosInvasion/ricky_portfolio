@@ -1,40 +1,42 @@
 // import BoardGamesImage from "../images/board_games.jpg";
 // // import VRProjectsImage from "../images/vr_projects.jpg";
 // import DesignProjectsImage from "../images/design_projects.jpg";
-import des_1 from "../images/design/design_1.png";
-import des_2 from "../images/design/design_2.png";
-import des_3 from "../images/design/design_3.png";
+import des_1 from "../images/design/design_1.jpg";
+import des_2 from "../images/design/design_2.jpg";
+import des_3 from "../images/design/design_3.jpg";
 import des_4 from "../images/design/design_4.png";
-import des_5 from "../images/design/design_5.png";
-import des_6 from "../images/design/design_6.png";
-import des_7 from "../images/design/design_7.png";
-import des_8 from "../images/design/design_8.png";
-import des_9 from "../images/design/design_9.png";
-import des_10 from "../images/design/design_10.png";
-import des_11 from "../images/design/design_11.png";
+import des_5 from "../images/design/design_5.jpg";
+import des_6 from "../images/design/design_6.jpg";
+import des_7 from "../images/design/design_7.jpg";
+import des_8 from "../images/design/design_8.jpg";
+import des_9 from "../images/design/design_9.jpg";
+import des_10 from "../images/design/design_10.jpg";
+import des_11 from "../images/design/design_11.jpg";
 import des_12 from "../images/design/design_12.jpg";
-import des_13 from "../images/design/design_13.png";
+import des_13 from "../images/design/design_13.jpg";
 import des_14 from "../images/design/design_14.jpg";
-import des_15 from "../images/design/design_15.png";
+import des_15 from "../images/design/design_15.jpg";
 import des_16 from "../images/design/design_16.jpg";
-import des_17 from "../images/design/design_17.png";
+import des_17 from "../images/design/design_17.jpg";
 import prot_1 from "../images/prototype/Prototype/1_1.png";
 import prot_2 from "../images/prototype/Prototype/2_8.png";
 import prot_3 from "../images/prototype/Prototype/3_7.png";
 import prot_4 from "../images/prototype/Prototype/4_1.png";
 import bgone from "../images/bg_one.png";
 import col_rush from "../images/bottom_carousal/Colrush_1.jpg";
-import DevOne from "../images/dev_one/Level/1_3.png";
+import DevOne from "../images/dev_one/Level/1_3.jpg";
 import DevTwo from "../images/dev_two/Levels/2_1.png";
-import DevThree from "../images/dev_three/Level/3L_2.png";
+import DevThree from "../images/dev_three/Level/3L_2.jpg";
+import DevFour from "../images/Inventory/Inventory/1.jpg";
 import meetingOne from "../images/bottom_carousal/TheMeeting_1.jpg";
-import mShapesThree from "../images/bottom_carousal/MediaShapes_3.jpg";
+import mShapesThree from "../images/bottom_carousal/Mediashapes_3.jpg";
 import trach from "../images/Trach-L3.jpg";
 import htt from "../images/HTT-L1.jpg";
 import pph from "../images/PPH-main.jpg";
 import cvc from "../images/CVC-L1.jpg";
 import sb_1 from "../images/bottom_carousal/sb_1.jpg";
 import trip_down from "../images/trip_down.jpg";
+import masa_mission from "../images/masa_mission.jpg";
 
 const main_card_object_list = [
   {
@@ -47,6 +49,8 @@ const main_card_object_list = [
     project_description:
       "AMAZE is an enthralling and thought-provoking video game that immerses players in the shoes of an archaeology student on an intriguing quest.",
     carousal_imageList: [],
+    role: "Game Designer, Developer",
+    team_members: "Oluwafemi Adewunmi and Song Zhechao",
   },
   {
     id: "dev_1",
@@ -58,6 +62,8 @@ const main_card_object_list = [
     project_description:
       "My main objective is to create a captivating first-person shooting game to showcase my expertise in game development.",
     carousal_imageList: [],
+    role: "Developer, Level designer",
+    team_members: "Solo",
   },
   {
     id: "prot_3",
@@ -69,6 +75,8 @@ const main_card_object_list = [
     project_description:
       "The theme of the challenge that led to the creation of this title is Haunted House. Sincerely, not every member of the team was aware of this",
     carousal_imageList: [],
+    role: "Developer, Level Designer",
+    team_members: "Solo",
   },
   {
     id: "board2",
@@ -80,6 +88,9 @@ const main_card_object_list = [
     project_description:
       "Our instructions were to create a new game using ‘Sissy Fight’ as a starting point, with a requirement that we maintain the aspect of simultaneously revealed action cards for our final game. ",
     carousal_imageList: [],
+    role: "Game Designer",
+    team_members:
+      "Elena Kappler, Xinchen Gong, Christian Matte, and Haoran Feng",
   },
   {
     id: "vr_1",
@@ -91,6 +102,8 @@ const main_card_object_list = [
     project_description: `A tracheostomy procedure was necessary for Patrick, 57, because of an infection in his epiglottis. It is your duty as a nurse to carry out post-operative tracheostomy care procedures. 
     `,
     carousal_imageList: [],
+    role: "VR Developer",
+    team_members: "Solo",
   },
   {
     id: "vr_2",
@@ -102,6 +115,8 @@ const main_card_object_list = [
     project_description:
       "This 42-year-old corporate executive is Mike, and he is undergoing an outpatient surgical procedure. The outpatient surgery nurse is required to conduct a head-to-toe assessment prior to the procedure.",
     carousal_imageList: [],
+    roloe: "Senior VR Developer",
+    team_members: "Solo",
   },
 ];
 
@@ -332,6 +347,18 @@ const development_card_object_list = [
     role: "Game Designer, Developer",
     team_members: "Oluwafemi Adewunmi and Song Zhechao",
   },
+  {
+    id: "dev_4",
+    title: "Advance Inventory System",
+    image_src: DevFour,
+    project_title: "Advance Inventory System",
+    created_at: "04/02/2024",
+    project_type: "Development",
+    project_description:
+      "Players of my previous project, Amaze, provided feedback to us, indicating that the game has a lot of potential if we keep improving and adding new features",
+    role: "Unreal UI/UX Designer",
+    team_members: "Solo",
+  },
 ];
 
 const prototype_card_object_list = [
@@ -447,6 +474,16 @@ const board_games_card_object_list = [
     project_type: "Board Games",
     project_description:
       "We decided to tackle the theme of ‘appreciation’ in our game. We interpret this as appreciation connected to the story of The Hunter and The Fox Woman, and the lack of appreciation for the things we have, as well as the sorrow caused by the loss of those things. ",
+  },
+  {
+    id: "board7",
+    title: "THE MASA MISSION",
+    image_src: masa_mission,
+    project_title: "THE MASA MISSION",
+    created_at: "18/10/2023",
+    project_type: "Board Games",
+    project_description:
+      "The primary goal of this project is to design and implement an interactive system that immerses players in a story-like experience.",
   },
 ];
 

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Work.css";
-// import valorant from "../../../images/valorant.jpg";
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-// import DevThree from "../../works/development/dev_three/DevThree";
-import devThree from "../../../images/dev_three/Level/3L_2.png";
+
+import devThree from "../../../images/dev_three/Level/3L_2.jpg";
 import protThree from "../../../images/prototype/Prototype/3_7.png";
 import trach from "../../../images/Trach-L3.jpg";
 

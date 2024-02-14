@@ -4,6 +4,7 @@ import atIcon from "../../images/at_icon.svg";
 import twitter from "../../images/t_icon.svg";
 import github from "../../images/git_icon.svg";
 import linkedin from "../../images/link_icon.svg";
+import artstation from "../../images/artstation.svg";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -27,7 +28,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav_list_item">
-            <a href="#" className="nav_link_btn">
+            <a href="/resume" className="nav_link_btn">
               Resume
             </a>
           </li>
@@ -53,11 +54,11 @@ const Navbar = () => {
           </li>
           <li className="nav_list_item">
             <a
-              href=" rickygouda9827.sweden@gmail.com"
+              href="https://www.artstation.com/goudasahashransu"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={atIcon} alt="mail" className="nav_icon" />
+              <img src={artstation} alt="mail" className="nav_icon" />
             </a>
           </li>
         </ul>

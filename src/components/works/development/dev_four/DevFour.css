@@ -1,0 +1,29 @@
+.dev_four_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #222828;
+    color: #dfdfdf;
+    font-family: "Roboto", monospace;
+}
+
+.dev_four_container p {
+    opacity: 0.4;
+}
+
+.dev_four_container h3 {
+    margin-bottom: 30px;
+}
+
+.dev_four_c_two p {
+    margin-top: 30px;
+}
+
+.dev_four_c_five ul {
+    list-style-type: none;
+}
+.dev_four_c_five h4 {
+    margin-bottom: 20px;
+}
+.dev_four_c_five li {
+    margin-bottom: 30px;
+}

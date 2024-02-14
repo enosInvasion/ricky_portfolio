@@ -5,7 +5,7 @@ import Navbar from "../../../../navbar/Navbar";
 import Caraousal from "../../../project_details/caraousal/Caraousal";
 import mShapesOne from "../../../../../images/bottom_carousal/MediaShapes_1.png";
 import mShapesTwo from "../../../../../images/bottom_carousal/MediaShapes_2.jpg";
-import mShapesThree from "../../../../../images/bottom_carousal/MediaShapes_3.jpg";
+import mShapesThree from "../../../../../images/bottom_carousal/Mediashapes_3.jpg";
 import Footer from "../../../../footer/Footer";
 
 const BgFive = () => {

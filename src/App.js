@@ -28,6 +28,7 @@ import VrOne from "./components/works/vr/vr_one/VrOne";
 import VrTwo from "./components/works/vr/vr_two/VrTwo";
 import VrThree from "./components/works/vr/vr_three/VrThree";
 import VrFour from "./components/works/vr/vr_four/VrFour";
+import DevFour from "./components/works/development/dev_four/DevFour";
 
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
         <Route path="/works/developmentdetails/dev_1" element={<DevOne />} />
         <Route path="/works/developmentdetails/dev_2" element={<DevTwo />} />
         <Route path="/works/developmentdetails/dev_3" element={<DevThree />} />
+        <Route path="/works/developmentdetails/dev_4" element={<DevFour />} />
         {/* VR projects path */}
         <Route path="/works/vrprojects/vr_1" element={<VrOne />} />
         <Route path="/works/vrprojects/vr_2" element={<VrTwo />} />

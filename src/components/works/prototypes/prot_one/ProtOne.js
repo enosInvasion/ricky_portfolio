@@ -18,6 +18,7 @@ const ProtOne = () => {
         <h1 className="game_title">{location.state.object.title}</h1>
         <Caraousal props={bottomImgList} />
         <h3>Role : {location.state.object.role}</h3>
+        <h3>Team : Solo</h3>
         <div className="prot_one_c_one">
           <h2>Game descriptions</h2>
           <p>
