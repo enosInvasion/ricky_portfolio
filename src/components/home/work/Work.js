@@ -22,6 +22,8 @@ const Work = () => {
       project_type: "Development",
       project_description: `"AMAZE" is an enthralling and thought-provoking video game that immerses players in the shoes of an archaeology student on an intriguing quest. Tasked with rediscovering the enigmatic ancient Benin wall and selecting a precious artifact for analysis, the game unveils a mysterious twist. The once-familiar walls have been re-engineered, transforming them into a complex maze filled with challenges and secrets waiting to be unraveled.`,
       carousal_imageList: [],
+      role: "Game Designer, Developer",
+      team_members: "Oluwafemi Adewunmi and Song Zhechao.",
     },
     {
       id: "prot_3",
@@ -33,6 +35,8 @@ const Work = () => {
       project_description:
         "The theme of the challenge that led to the creation of this title is Haunted House. Sincerely, not every member of the team was aware of this. We were spontaneous, and our idea, in the end, leaned towards the theme. Interesting enough, it started from musing about Home Alone, and here we are with the title: The Chronicles of Amusor (COA), a game about the horrific experience of a student at his family house for the Christmas holiday.",
       carousal_imageList: [],
+      role: "Developer, Level Designer",
+      team_members: "Shahriar Derhami and Oluwafemi Adewunmi",
     },
     {
       id: "vr_1",
@@ -44,6 +48,7 @@ const Work = () => {
       project_description: `A tracheostomy procedure was necessary for Patrick, 57, because of an infection in his epiglottis. It is your duty as a nurse to carry out post-operative tracheostomy care procedures. 
       The tracheostomy procedure is a major surgical procedure that entails a significant risk of complications. The post-procedural care is critical to the success of the surgery, and this is where caring nurses play a critical role.`,
       carousal_imageList: [],
+      role: "VR Developer",
     },
   ];
   return (

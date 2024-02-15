@@ -19,10 +19,7 @@ const BgSeven = () => {
         <Caraousal props={imgList} />
         <div className="role_team_section">
           <h3>Role : Game Designer</h3>
-          <h3>
-            Team Members : Xinchen Gong, Haoran Feng, Nicolas Hammar, and
-            Christos Yonas
-          </h3>
+          <h3>Team Members : Clara Pauline Lüty, Dani Waked</h3>
         </div>
         <div className="bg_seven_c_one">
           <h2>Objective and Initial Concept : </h2>

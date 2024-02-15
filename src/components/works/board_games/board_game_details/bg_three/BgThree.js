@@ -21,10 +21,7 @@ const BgThree = () => {
         <Caraousal props={bottomImgList} />
         <div className="role_team_section">
           <h3>Role :Game Designer</h3>
-          <h3>
-            Team Members : Elena Kappler, Xinchen Gong, Christian Matte, and
-            Haoran Feng
-          </h3>
+          <h3>Team Members : Oluwafemi Adewunmi and Song Zhechao</h3>
         </div>
         <div className="bg_three_para">
           <h2>Game Details</h2>

@@ -24,7 +24,7 @@ const Projects = () => {
               </p>
             </div>
             <div className="project_count">
-              <p>3 Projects</p>
+              <p>4 Projects</p>
             </div>
           </div>
           <div className="card_logo_section">

@@ -116,6 +116,7 @@ const main_card_object_list = [
       "This 42-year-old corporate executive is Mike, and he is undergoing an outpatient surgical procedure. The outpatient surgery nurse is required to conduct a head-to-toe assessment prior to the procedure.",
     carousal_imageList: [],
     roloe: "Senior VR Developer",
+    role: "VR Developer",
     team_members: "Solo",
   },
 ];
@@ -357,7 +358,7 @@ const development_card_object_list = [
     project_description:
       "Players of my previous project, Amaze, provided feedback to us, indicating that the game has a lot of potential if we keep improving and adding new features",
     role: "Unreal UI/UX Designer",
-    team_members: "Solo",
+    team_members: "Shahriar Derhami and Oluwafemi Adewunmi",
   },
 ];
 
