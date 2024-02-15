@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import profilePic from "../../../images/rickyaai_dp_new_copy.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -17,7 +18,9 @@ const About = () => {
           </div>
         </div>
         <div className="chat_button_section">
-          <button className="chat_button">LET'S CHAT!</button>
+          <Link to="/chat" className="chat_button">
+            LET'S CHAT!
+          </Link>
         </div>
         <div className="stats_section">
           <div className="stat_text_section ts_one">
@@ -28,7 +31,7 @@ const About = () => {
             </div>
           </div>
           <div className="stat_text_section ts_two">
-            <div className="number">34</div>
+            <div className="number">36</div>
             <div className="text">
               Projects complted
               <br /> On 3 Different domains

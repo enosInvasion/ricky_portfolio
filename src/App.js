@@ -29,6 +29,8 @@ import VrTwo from "./components/works/vr/vr_two/VrTwo";
 import VrThree from "./components/works/vr/vr_three/VrThree";
 import VrFour from "./components/works/vr/vr_four/VrFour";
 import DevFour from "./components/works/development/dev_four/DevFour";
+import Resume from "./components/resume/Resume";
+import Contact from "./components/home/contact/Contact";
 
 function App() {
   return (
@@ -36,12 +38,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/works" element={<Works />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/works/design" element={<Design />} />
         <Route path="/works/prototypes" element={<Prototypes />} />
         <Route path="/works/development" element={<Development />} />
         <Route path="/works/vrprojects" element={<VRProjects />} />
         <Route path="/works/boardgames" element={<BoardGames />} />
         <Route path="/works/:id/projectdetails" element={<ProjectDetails />} />
+        <Route path="/chat" element={<Contact />} />
 
         <Route path="/works/mainpage/dev_1" element={<DevOne />} />
         <Route path="/works/mainpage/dev_3" element={<DevThree />} />
